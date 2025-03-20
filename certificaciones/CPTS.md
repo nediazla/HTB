@@ -494,7 +494,6 @@ Las vulnerabilidades de inyección de comandos se pueden aprovechar para comprom
         [Blind Data Exfiltration](Blind%20Data%20Exfiltration.md)
         [XXE Prevention](XXE%20Prevention.md)
         
-
 Este módulo cubre tres vulnerabilidades web comunes: HTTP Verb Tampering, IDOR y XXE, cada una de las cuales puede tener un impacto significativo en los sistemas de una empresa. Cubriremos cómo identificar, explotar y prevenir cada uno de ellos mediante varios métodos.
 
 - **Attacking Common Applications**
