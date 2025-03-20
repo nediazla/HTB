@@ -94,43 +94,42 @@ Este módulo cubre técnicas para realizar un seguimiento de los servicios más 
 	 - [Introducción ](Introduccio%CC%81n%2016503ba572bc8098a9e5cf29450c3459.md)
     - WHOIS
         [Whois](Whois%2016503ba572bc80fb8890f6617615d443.md)
-        [**Utilising WHOIS**](Utilising%20WHOIS%2016503ba572bc80aa9328ef0edf0da476.md)
+        [**Utilising WHOIS**](Utilising%20WHOIS.md)
         
     - DNS & Subdominios
-
         [DNS](DNS%2016503ba572bc8007b293e1c23897fc1a.md)
-        [**Digging DNS**](Digging%20DNS%2016503ba572bc80939eaecfe148fd130a.md)
-        [**Subdomains**](Subdomains%2016503ba572bc8046b39dd5788af686a7.md)
-        [**Subdomain Bruteforcing**](Subdomain%20Bruteforcing%2016503ba572bc80ebb1defde2c317ac68.md)
-        [**DNS Zone Transfers**](DNS%20Zone%20Transfers%2016503ba572bc8043a316fa47019e52c0.md)
-        [**Virtual Hosts**](Virtual%20Hosts%2016603ba572bc8034af8af11510a0c955.md)
-        [**Registros de transparencia de certificado**](Registros%20de%20transparencia%20de%20certificado%201ba03ba572bc80d1a233da597ea344b5.md)
+        [**Digging DNS**](Digging%20DNS.md)
+        [**Subdomains**](Subdomains.md)
+        [**Subdomain Bruteforcing**](Subdomain%20Bruteforcing.md)
+        [**DNS Zone Transfers**](DNS%20Zone%20Transfers.md)
+        [**Virtual Hosts**](Virtual%20Hosts.md)
+        [**Registros de transparencia de certificado**](Registros%20de%20transparencia%20de%20certificado.md)
     
-    - [FingerPrinting](FingerPrinting%2016503ba572bc80af8421c61de7b689bc.md)
+    - [FingerPrinting](FingerPrinting.md)
     
     - Crawling
-        [**Rastreo**](Rastreo%201ba03ba572bc805aa840d7edc764bd9d.md)
-        [**robots.txt**](robots%20txt%201ba03ba572bc806bac09f66e88b03c22.md)
-        [**Well-Known URIs**](Well-Known%20URIs%201ba03ba572bc80edbab3d9501f83f348.md)
-        [**Creepy Crawlies**](Creepy%20Crawlies%201ba03ba572bc80be90aefb7c75829ea5.md)
+        [**Rastreo**](Rastreo.md)
+        [**robots.txt**](robots%20txt.md)
+        [**Well-Known URIs**](Well-Known%20URIs.md)
+        [**Creepy Crawlies**](Creepy%20Crawlies.md)
     
-    - [**Search Engine Discovery**](Search%20Engine%20Discovery%2016503ba572bc8054a3ffd70c4f9a496c.md)
+    - [**Search Engine Discovery**](Search%20Engine%20Discovery.md)
     
-    - [**Web Archives**](Web%20Archives%2016503ba572bc80cd8e97eb56a2154812.md)
+    - [**Web Archives**](Web%20Archives.md)
     
-    - [**Automating Recon**](Automating%20Recon%2016503ba572bc80a7bedbd31e1f2eae7e.md)
+    - [**Automating Recon**](Automating%20Recon.md)
 
 Este módulo proporciona a los alumnos habilidades esenciales de reconocimiento web, cruciales para la piratería ética y las pruebas de penetración. Explora técnicas tanto activas como pasivas, incluida la enumeración de DNS, el rastreo web, el análisis de archivos web y encabezados HTTP, y tecnologías web de toma de huellas digitales.
 
 - **Vulnerability Assessment**
     - **Security Assessments**
-        [**Evaluaciones de seguridad**](Evaluaciones%20de%20seguridad%201bb03ba572bc80438cc1c6f4f425f015.md)
-        [**Evaluación de vulnerabilidad**](Evaluacio%CC%81n%20de%20vulnerabilidad%201bb03ba572bc80e5b593f24b01e738e6.md)
-        [**Estándares de evaluación**](Esta%CC%81ndares%20de%20evaluacio%CC%81n%201bb03ba572bc806798d8e2618acf9d25.md)
+        [**Evaluaciones de seguridad**](Evaluaciones%20de%20seguridad.md)
+        [**Evaluacion de Vulnerabilidad**](Evaluación%20de%20vulnerabilidad.md)
+        [**Estándares de evaluación**](Estándares%20de%20evaluación.md)
         
     - **Vulnerability Scoring and Reporting**
-        [**Sistema de puntuación de vulnerabilidad común (CVSS)**](Sistema%20de%20puntuacio%CC%81n%20de%20vulnerabilidad%20comu%CC%81n%20(C%201bb03ba572bc80c19ed5cc90dabf7faf.md)
-        [**Vulnerabilidades y exposiciones comunes (CVE)**](Vulnerabilidades%20y%20exposiciones%20comunes%20(CVE)%201bb03ba572bc80e4863cf93a19c800a2.md)
+        [**Sistema de puntuación de vulnerabilidad común (CVSS)**](Sistema%20de%20puntuación%20de%20vulnerabilidad%20común%20(CVSS).md)
+        [**Vulnerabilidades y exposiciones comunes (CVE)**](Vulnerabilidades%20y%20exposiciones%20comunes%20(CVE).md)
         
     - **Nessus**
         [**Descripción general del escaneo de vulnerabilidad**](Descripcio%CC%81n%20general%20del%20escaneo%20de%20vulnerabilidad%201bb03ba572bc80f98e79e87393c01c42.md)
