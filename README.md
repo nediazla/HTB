@@ -1,5 +1,5 @@
 
 
-[Certificaciones](certificaciones.md)
-[Paths](paths.md)
-[Maquinas](maquinas.md)
+- [Certificaciones](certificaciones.md)
+- [Paths](paths.md)
+- [Maquinas](maquinas.md)
