@@ -1,0 +1,98 @@
+# Introduction to Active Directory Enumeration & Attacks
+
+# **Active Directory explicó**
+
+`Active Directory` (`AD`) es un servicio de directorio para entornos empresariales de Windows que se implementó oficialmente en 2000 con la versión de Windows Server 2000 y se ha mejorado incrementalmente con la versión de cada sistema operativo de servidor posterior desde entonces. AD se basa en los Protocolos X.500 y LDAP que lo precedieron y aún utiliza estos protocolos de alguna forma hoy. Es una estructura jerárquica distribuida que permite la gestión centralizada de los recursos de una organización, incluidos usuarios, computadoras, grupos, dispositivos de red y acciones de archivos, políticas grupales, dispositivos y fideicomisos. AD proporciona`authentication, accounting, and authorization`Funciones dentro de un entorno empresarial de Windows. Si esta es la primera vez que aprende sobre Active Directory o escucha estos Términos, consulte el[Introducción a Active Directory](https://academy.hackthebox.com/course/preview/introduction-to-active-directory)Módulo para una mirada más profunda a la estructura y función de AD, objetos AD, etc.
+
+---
+
+# **¿Por qué deberíamos preocuparnos por AD?**
+
+Al momento de escribir este módulo, Microsoft Active Directory se mantiene en torno a`43%`del[cuota de mercado](https://www.slintel.com/tech/identity-and-access-management/microsoft-active-directory-market-share#faqs)para organizaciones empresariales utilizando`Identity and Access management`soluciones. Esta es una gran parte del mercado, y no es probable que vaya a ningún lado en el corto plazo, ya que Microsoft está mejorando y combinando implementaciones con Azure AD. Otra estadística interesante a considerar es que en los últimos dos años, Microsoft ha tenido más`2000`vulnerabilidades reportadas vinculadas a un[CVe](https://www.cvedetails.com/vendor/26/Microsoft.html). Los muchos servicios de AD y el propósito principal de hacer que la información sea fácil de encontrar y acceder, lo que hace que sea un gigante administrar y endurecerse correctamente. Esto expone a las empresas a vulnerabilidades y explotación de simples configuraciones erróneas de servicios y permisos. Ate de estas configuraciones erróneas y facilidad de acceso con las vulnerabilidades comunes del usuario y el sistema operativo, y tendrá una tormenta perfecta para que un atacante aproveche. Con todo esto en mente, este módulo explorará algunos de estos problemas comunes y nos mostrará cómo identificar, enumerar y aprovechar su existencia. Practicaremos enumerando anuncios utilizando herramientas e idiomas nativos como`Sysinternals`, `WMI`, `DNS`, y muchos otros. Algunos ataques que también practicaremos incluyen`Password spraying`, `Kerberoasting`, utilizando herramientas como`Responder`, `Kerbrute`, `Bloodhound`, y mucho más.
+
+A menudo podemos encontrarnos en una red sin una ruta clara hacia un punto de apoyo a través de una exploit remota, como una aplicación o servicio vulnerable. Sin embargo, estamos dentro de un entorno de Active Directory, que puede provocar un punto de apoyo de muchas maneras. El objetivo general de obtener un punto de apoyo en el entorno publicitario de un cliente es`escalate privileges`moviéndose lateralmente o verticalmente en toda la red hasta que logremos la intención de la evaluación. El objetivo puede variar de un cliente a otro. Puede estar accediendo a un host específico, la bandeja de entrada de correo electrónico del usuario, la base de datos o simplemente completar el compromiso de dominio y buscar cada ruta posible al acceso a nivel de administrador del dominio dentro del período de prueba. Muchas herramientas de código abierto están disponibles para facilitar la enumeración y el ataque de Active Directory. Para ser más efectivos, debemos entender cómo realizar la mayor cantidad de enumeración manualmente posible. Más importante aún, debemos entender el "por qué" detrás de ciertos defectos y malhiguraciones. Esto nos hará más efectivos como atacantes y nos equipará para dar recomendaciones sólidas a nuestros clientes sobre los principales problemas dentro de su entorno, así como asesoramiento de remediación clara y procesable.
+
+Necesitamos sentirnos cómodos enumerando y atacando anuncios desde Windows y Linux, con un conjunto de herramientas limitado o herramientas de Windows incorporadas, también conocidas como "`living off the land`. "Es común encontrarse con situaciones donde nuestras herramientas fallan, están siendo bloqueadas, o estamos llevando a cabo una evaluación en la que el cliente nos hace trabajar desde un`managed workstation`o`VDI instance`En lugar del host de ataque de Linux o Windows personalizado, es posible que nos hayamos acostumbrado. Para ser efectivos en todas las situaciones, debemos poder adaptarnos rápidamente a la mosca, comprender los muchos matices de AD y saber cómo acceder a ellas incluso cuando se limitan severamente en nuestras opciones.
+
+---
+
+# **Ejemplos del mundo real**
+
+Veamos algunos escenarios para ver lo que es posible en un compromiso con anuncio en el mundo real:
+
+# **Escenario 1 - Esperando a un administrador**
+
+Durante este compromiso, comprometí un solo host y gané`SYSTEM`acceso a nivel. Debido a que este era un anfitrión unido al dominio, pude usar este acceso para enumerar el dominio. Pasé por toda la enumeración estándar, pero no encontré mucho. Había`Service Principal Names`(SPNS) Presente dentro del medio ambiente, y pude realizar un ataque de querberoasting y recuperar boletos TGS para algunas cuentas. Intenté descifrarlos con hashcat y algunas de mis listas y reglas estándar, pero al principio no tuve éxito. Terminé dejando un trabajo de crujido funcionando durante la noche con una lista de palabras muy grande combinada con el[d3ad0ne](https://github.com/hashcat/hashcat/blob/master/rules/d3ad0ne.rule)gobierna que se envíe con hashcat. A la mañana siguiente tuve un éxito en un boleto y recuperé la contraseña de ClearText para una cuenta de usuario. Esta cuenta no me dio acceso significativo, pero me dio acceso de escritura en ciertas acciones de archivo. Utilicé este acceso para soltar archivos SCF alrededor de las acciones y el respondedor izquierdo en marcha. Después de un tiempo, obtuve un solo golpe, el`NetNTLMv2 hash`de un usuario. ¡Revisé la salida de sodio y noté que este usuario era en realidad un administrador de dominio! Día fácil desde aquí.
+
+---
+
+# **Escenario 2 - Rociar la noche**
+
+La pulverización de contraseñas puede ser una forma extremadamente efectiva de obtener un punto de apoyo en un dominio, pero debemos ejercer mucho cuidado para no bloquear las cuentas de los usuarios en el proceso. En un compromiso, encontré una sesión nula de SMB usando el[enum4linux](https://github.com/CiscoCXSecurity/enum4linux)herramienta y recuperado tanto una lista de`all`usuarios del dominio y el dominio`password policy`. Conocer la política de contraseña era crucial porque podía asegurarme de que me estaba quedando dentro de los parámetros para no bloquear ninguna cuenta y también sabía que la política era un mínimo de contraseña de ocho caracteres y complejidad de contraseña (lo que significa que la contraseña de un usuario requería 3/4 de carácter especial, número, mayúscula o número de minúsculas, es decir, bienvenido1). Probé varias contraseñas débiles comunes como Welceed1,`Password1`, Contraseña123,`Spring2018`, etc. pero no obtuvo ningún golpe. Finalmente, intenté con`Spring@18`¡Y tengo un éxito! Usando esta cuenta, ejecuté Bloodhound y encontré varios hosts donde este usuario tenía acceso de administrador local. Noté que una cuenta de administrador de dominio tenía una sesión activa en uno de estos hosts. Pude usar la herramienta Rubeus y extraer el boleto Kerberos TGT para este usuario de dominio. A partir de ahí, pude realizar un`pass-the-ticket`atacar y autenticar como este usuario administrador de dominio. Como beneficio adicional, pude hacer cargo del dominio de confianza también porque el grupo de administradores de dominio para el dominio que me hice cargo era parte del grupo de administradores en el dominio de confianza a través de la membresía anidada del grupo, lo que significa que podría usar el mismo conjunto de credenciales para autenticarme con el otro dominio con acceso a nivel administrativo completo.
+
+---
+
+# **Escenario 3 - Luchando en la oscuridad**
+
+Había probado todas mis formas estándar de obtener un punto de apoyo en este tercer compromiso, y nada había funcionado. Decidí que usaría el[Kerbrute](https://github.com/ropnop/kerbrute)Herramienta para intentar enumerar los nombres de usuario válidos y luego, si encontré alguno, intente un ataque de pulverización de contraseña específica ya que no conocía la política de contraseña y no quería bloquear ninguna cuenta. Yo usé el[LinkedIn2Username](https://github.com/initstring/linkedin2username)Herramienta a los primeros nombres de usuario potenciales de mashup desde la página de LinkedIn de la compañía. Combiné esta lista con varias listas de nombre de usuario de la[nombres estadísticamente probables](https://github.com/insidetrust/statistically-likely-usernames)Repositorio de github y, después de usar el`userenum`característica de Kerbrute, terminó con**516**usuarios válidos. Sabía que tenía que pisar con cuidado con la pulverización de contraseña, así que lo intenté con la contraseña`Welcome2021`¡Y tengo un solo golpe! Usando esta cuenta, ejecuté la versión de Python de Bloodhound de mi host de ataque y descubrí que todos los usuarios de dominio tenían acceso RDP a una sola caja. Inicié sesión en este host y usé la herramienta PowerShell[DomainPasswordSpray](https://github.com/dafthack/DomainPasswordSpray)para rociar de nuevo. Estaba más seguro esta vez porque podría a) ver la política de contraseña y b) la herramienta DomainPasswordSpray eliminará las cuentas cercanas al bloqueo de la lista de destino. Siendo que fui autenticado dentro del dominio, ahora podía rociar con todos los usuarios de dominio, lo que me dio significativamente más objetivos. Lo intenté nuevamente con la contraseña común Fall2021 y obtuve varios éxitos, todo para los usuarios que no están en mi lista de palabras inicial. Revisé los derechos de cada una de estas cuentas y descubrí que uno estaba en el grupo de escritores de ayuda, que tenía[Genéricos](https://bloodhound.readthedocs.io/en/latest/data-analysis/edges.html#genericall)derechos sobre el[Administradores de la clave empresarial](https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/active-directory-security-groups#enterprise-key-admins)grupo. El grupo de administradores clave empresariales tenía privilegios genéricos sobre un controlador de dominio, por lo que agregué la cuenta que controlé a este grupo, autentiqué nuevamente y heredé estos privilegios. Usando estos derechos, realicé el[Credenciales de sombra](https://posts.specterops.io/shadow-credentials-abusing-key-trust-account-mapping-for-takeover-8ee1a53566ab)Ataque y recuperó el hash NT para la cuenta de la máquina del controlador de dominio. Con este hash NT, luego pude realizar un ataque DCSYNC y recuperar los hash de contraseña NTLM para todos los usuarios en el dominio porque un controlador de dominio puede realizar la replicación, lo que se requiere para DCSYNC.
+
+---
+
+# **Este es el camino**
+
+Estos escenarios pueden parecer abrumadores con muchos conceptos extranjeros en este momento, pero después de completar este módulo, estará familiarizado con la mayoría de ellos (algunos conceptos descritos en estos escenarios están fuera del alcance de este módulo). Estos muestran la importancia de la enumeración iterativa, la comprensión de nuestro objetivo y la adaptación y el pensamiento fuera de la caja mientras avanzamos a través de un entorno. Realizaremos muchas de las partes de las cadenas de ataque descritas anteriormente en estas secciones de módulos, y luego podrá poner a prueba sus habilidades atacando dos entornos AD diferentes al final de este módulo y descubriendo sus propios motores de ataque. Atar porque esto será un divertido, pero lleno de baches, a través del mundo salvaje que es`enumerating`y`attacking`Directorio activo.
+
+---
+
+# **Ejemplos prácticos**
+
+A lo largo del módulo, cubriremos ejemplos con salida de comandos adjuntos. La mayoría de los cuales se pueden reproducir en las máquinas virtuales objetivo que se pueden generar dentro de las secciones relevantes. Se le proporcionarán credenciales de RDP para interactuar con algunas de las máquinas virtuales objetivo para aprender a enumerar y atacar desde un host de Windows (`MS01`) y ssh acceso a un host de loro letrot preconfigurado (`ATTACK01`) para realizar ejemplos de enumeración y ataque de Linux. Puede conectarse desde el Pwnbox o su propia VM (después de descargar una tecla VPN una vez que se desovan una máquina) a través de RDP usando[Freerdp](https://github.com/FreeRDP/FreeRDP/wiki/CommandLineInterface), [Remmina](https://remmina.org/), o el cliente RDP de su elección donde corresponda o el cliente SSH integrado en el Pwnbox o su propia VM.
+
+---
+
+### **Conectarse a través de freerdp**
+
+Podemos conectarnos a través de la línea de comando usando el comando:
+
+Introducción a la enumeración y ataques de Active Directory
+
+```
+xnoxos@htb[/htb]$ xfreerdp /v:<MS01 target IP> /u:htb-student /p:Academy_student_AD!
+
+```
+
+### **Conectando a través de SSH**
+
+Podemos conectarnos al host de ataque Linux Prop presentado usando el comando, luego ingresar la contraseña proporcionada cuando se le solicite.
+
+Introducción a la enumeración y ataques de Active Directory
+
+```
+xnoxos@htb[/htb]$ ssh htb-student@<ATTACK01 target IP>
+
+```
+
+### **Xfreerdp al host de loro Attack01**
+
+También instalamos un`XRDP`servidor en el`ATTACK01`Anfitrión para proporcionar acceso a la GUI al anfitrión de Attack de Parrot. Esto se puede usar para interactuar con la herramienta GUI de Bloodhound que cubriremos más adelante en esta sección. En las secciones donde aparece este host (donde se le da acceso SSH) también puede conectarse a él usando`xfreerdp`Usando el mismo comando que lo haría con el host de ataque de Windows arriba:
+
+Introducción a la enumeración y ataques de Active Directory
+
+```
+xnoxos@htb[/htb]$ xfreerdp /v:<ATTACK01 target IP> /u:htb-student /p:HTB_@cademy_stdnt!
+
+```
+
+La mayoría de las secciones proporcionarán credenciales para el`htb-student`usuario en cualquiera`MS01`o`ATTACK01`. Dependiendo del material y los desafíos, algunas secciones lo harán autenticarse con un objetivo con un usuario diferente, y se proporcionarán credenciales alternativas.
+
+A lo largo de este módulo, se le presentará múltiples Mini Active Directory Labs. Algunos de estos laboratorios pueden tardar de 3 a 5 minutos en generar completamente y ser accesible a través de RDP. Recomendamos desplazarse al final de cada sección, hacer clic para generar el laboratorio y luego comenzar a leer el material, de modo que el entorno aumente para cuando llegue a las partes interactivas de la sección.
+
+---
+
+# **Kit de herramientas**
+
+Proporcionamos un host de ataque de Windows y Parrot Linux en el laboratorio adjunto para este módulo. Todas las herramientas necesarias para realizar todos los ejemplos y resolver todas las preguntas en las secciones del módulo están presentes en los hosts. Las herramientas necesarias para el host del ataque de Windows,`MS01`están ubicados en el`C:\Tools`directorio. Otros, como el módulo PowerShell de Active Directory, se cargarán al abrir una ventana de la consola PowerShell. Herramientas en el host de ataque de Linux,`ATTACK01`, se instalan y se agregan al`htb-student`ruta de los usuarios o presente en el`/opt`directorio. Puede, por supuesto, (y se recomienda) compilar (donde sea necesario) y cargar sus propias herramientas y scripts a los hosts de ataque para acostumbrarse a hacerlo o alojarlos en un SMB compartido desde el Pwnbox trabajando con las herramientas de esa manera. Tenga en cuenta que al realizar una prueba de penetración real en la red de un cliente, siempre es mejor compilar las herramientas usted mismo para examinar el código de antemano y asegurarse de que no haya nada malicioso en el ejecutable compilado. No queremos llevar herramientas infectadas a la red de un cliente y exponerlas a un ataque externo.
+
+---
+
+¡Diviértete y no te olvides de pensar fuera de la caja! AD es inmenso. No lo dominará de la noche a la mañana, pero sigue trabajando en ello, y pronto el contenido en este módulo será una segunda naturaleza.

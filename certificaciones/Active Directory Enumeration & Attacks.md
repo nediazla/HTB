@@ -2,11 +2,11 @@
 
 - **Setting The Stage**
 
-[Introduction to Active Directory Enumeration & Attacks](Introduction%20to%20Active%20Directory%20Enumeration%20&%20Att%201bc03ba572bc80b9af0be73f43a73312.md)
+[Introduction to Active Directory Enumeration & Attacks](Introduction%20to%20Active%20Directory%20Enumeration%20&%20Att.md)
 
 [Tools Of The Trade](Tools%20Of%20The%20Trade.md)
 
-[Scenario](Scenario%201bc03ba572bc809a979ec288a0cbb964.md)
+[Scenario](Scenario.md)
 
 - **Initial Enumeration**
 

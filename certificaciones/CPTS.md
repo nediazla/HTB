@@ -137,14 +137,14 @@ Este módulo proporciona a los alumnos habilidades esenciales de reconocimiento 
         [**Escaneo de nessus**](Escaneo%20de%20nessus.md)
         [**Configuración avanzada**](Configuración%20avanzada.md)
         [**Trabajar con la salida de escaneo de Nessus**](Trabajar%20con%20la%20salida%20de%20escaneo%20de%20Nessus.md)
-        [**Problemas de escaneo**](Problemas%20de%20escaneo%201bb03ba572bc8055a20ac491bcab3d04.md)
+        [**Problemas de escaneo**](Problemas%20de%20escaneo.md)
         
     - **OpenVAS**
         [**Comenzando con OpenVas**](Comenzando%20con%20OpenVas.md)
         [**Escaneo de openvas**](Escaneo%20de%20openvas.md)
         [**Exportar los resultados**](Exportar%20los%20resultados.md)
     
-    - [**Reporting**](Reporting%201bb03ba572bc806c9f38c369e1b12c1b.md)
+    - [**Reporting**](Reporting.md)
     
 Este módulo presenta el concepto de evaluaciones de vulnerabilidad. Revisaremos las diferencias entre evaluaciones de vulnerabilidad y pruebas de penetración, cómo llevar a cabo una evaluación de vulnerabilidad, cómo interpretar los resultados de la evaluación y cómo entregar un informe de evaluación de vulnerabilidad eficaz.
 
@@ -152,10 +152,10 @@ Este módulo presenta el concepto de evaluaciones de vulnerabilidad. Revisaremos
     - [Introduccion](Introduccion3.md)
     
     - **File Transfer Methods**
-        [**Métodos de transferencia de archivos de Windows**](Me%CC%81todos%20de%20transferencia%20de%20archivos%20de%20Windows%201bb03ba572bc80adad6cd8bf8a56141d.md)
-        [**Métodos de transferencia de archivos de Linux**](Me%CC%81todos%20de%20transferencia%20de%20archivos%20de%20Linux%201bb03ba572bc80adada2d5fb746f5c50.md)
+        [**Métodos de transferencia de archivos de Windows**](Métodos%20de%20transferencia%20de%20archivos%20de%20Windows.md)
+        [**Métodos de transferencia de archivos de Linux**](Métodos%20de%20transferencia%20de%20archivos%20de%20Linux.md)
         [**Transferir archivos con código**](Transferir%20archivos%20con%20código.md)
-        [**Métodos de transferencia de archivos varios**](Me%CC%81todos%20de%20transferencia%20de%20archivos%20varios%201bb03ba572bc80ddb065ea486d1a03df.md)
+        [**Métodos de transferencia de archivos varios**](Métodos%20de%20transferencia%20de%20archivos%20varios.md)
         [**Transferencias de archivos protegidos**](Transferencias%20de%20archivos%20protegidos.md)
         [**Capturar archivos a través de http/s**](Capturar%20archivos%20a%20través%20de%20http%20s.md)
         [**Viviendo fuera de la tierra**](Viviendo%20fuera%20de%20la%20tierra.md)
@@ -169,8 +169,8 @@ Durante una evaluación, es muy común que transfiramos archivos hacia y desde u
 
 - **Shells & Payloads**
     - Introduccion
-        [**Los proyectiles nos ingresan, las cargas útiles nos entregan conchas**](Los%20proyectiles%20nos%20ingresan,%20las%20cargas%20u%CC%81tiles%20n%201bb03ba572bc80d8bd1ce988df6f3ff2.md)
-        [**Preparación de compromiso de Cat5 Security**](Preparacio%CC%81n%20de%20compromiso%20de%20Cat5%20Security%201bb03ba572bc80b4a70fea011e703d8a.md)
+        [**Los proyectiles nos ingresan, las cargas útiles nos entregan conchas**](Los%20proyectiles%20nos%20ingresan,%20las%20cargas%20útiles.md)
+        [**Preparación de compromiso de Cat5 Security**](Preparación%20de%20compromiso%20de%20Cat5%20Security.md)
         
     - Shell Basic
         [**Anatomía de un caparazón**](Anatomía%20de%20un%20caparazón.md)
@@ -190,10 +190,10 @@ Durante una evaluación, es muy común que transfiramos archivos hacia y desde u
         [**Desovando conchas interactivas**](Desovando%20conchas%20interactivas.md)
         
     - Web Shells
-        [**Introducción a los shells web**](Introduccio%CC%81n%20a%20los%20shells%20web%201bb03ba572bc80fba615f60677816259.md)
-        [**Laudanum, una red web para gobernarlos a todos**](Laudanum,%20una%20red%20web%20para%20gobernarlos%20a%20todos%201bb03ba572bc801fa1ebe06599cd786a.md)
+        [**Introducción a los shells web**](Introducción%20a%20los%20shells%20web.md)
+        [**Laudanum, una red web para gobernarlos a todos**](Laudanum,%20una%20red%20web%20para%20gobernarlos%20a%20todos.md)
         [**Antak webshell**](Antak%20webshell.md)
-        [**PHP Web Shells**](PHP%20Web%20Shells%201bb03ba572bc80c39980e202ce6816b5.md)
+        [**PHP Web Shells**](PHP%20Web%20Shells.md)
         
     - **Consideraciones adicionales**
         [**Detección y prevención**](Detección%20y%20prevención.md)
@@ -203,27 +203,27 @@ Obtenga el conocimiento y las habilidades para identificar y utilizar shells y c
 
 - **Using the Metasploit Framework**
     - Introduccion
-        [**Prefacio**](Prefacio%201b803ba572bc80268c14de5a7bbce2fe.md)
-        [**Introducción a MetaSploit**](Introduccio%CC%81n%20a%20MetaSploit%201b803ba572bc80cfbe63c1d8c13fded7.md)
-        [**Introducción a MSFConsole**](Introduccio%CC%81n%20a%20MSFConsole%201b803ba572bc803b808bef7b0234af90.md)
+        [**Prefacio**](Prefacio.md)
+        [**Introducción a MetaSploit**](Introducción%20a%20MetaSploit.md)
+        [**Introducción a MSFConsole**](Introducción%20a%20MSFConsole.md)
         
     - MSF Componetnts
-        [**Módulos**](Mo%CC%81dulos%201b803ba572bc80fe8829e218e3431efb.md)
-        [**Objetivos**](Objetivos%201b803ba572bc8024856cd73d601f99ed.md)
-        [**Payloads**](Payloads%201b803ba572bc8051af3dca1573137000.md)
+        [**Módulos**](Módulos.md)
+        [**Objetivos**](Objetivo.md)
+        [**Payloads**](Payloads.md)
         [**Codificadores**](Codificadores.md)
         [**Databases**](Databases.md)
-        [**Plugins**](Plugins%201b803ba572bc80dea1ebd6bc6b70048e.md)
+        [**Plugins**](Plugins.md)
         
     - MSF Sessions
-        [**Sesiones y Trabajos**](Sesiones%20y%20Trabajos%201b803ba572bc8069a51dea7d89c17ebb.md)
-        [**Meterpréter**](Meterpre%CC%81ter%201b803ba572bc80e3bbcef7aa9fa2d51d.md)
+        [**Sesiones y Trabajos**](Sesiones%20y%20Trabajos.md)
+        [**Meterpréter**](Meterpréter.md)
         
     - **Additional Features**
         [**Escribir e importar módulos**](Escribir%20e%20importar%20módulos.md)
-        [**Introducción a MSFVENOM**](Introduccio%CC%81n%20a%20MSFVENOM%201b803ba572bc800ca18dc675bebcbfce.md)
+        [**Introducción a MSFVENOM**](Introducción%20a%20MSFVENOM.md)
         [**Firewall e IDS/IPS evasión**](Firewall%20e%20IDS%20IPS%20evasión.md)
-        [**Actualizaciones de trabajo de metasploit - agosto de 2020**](Actualizaciones%20de%20trabajo%20de%20metasploit%20-%20agosto%20%201b803ba572bc80429ea0fffd2d672c76.md)
+        [**Actualizaciones de trabajo de metasploit - agosto de 2020**](Actualizaciones%20de%20trabajo%20de%20metasploit%20-%20agosto.md)
     
 
 Metasploit Framework es un conjunto de herramientas de código abierto que se utilizan para enumerar redes, realizar ataques, probar vulnerabilidades de seguridad, evadir la detección, realizar ataques de escalada de privilegios y realizar operaciones posteriores a la explotación.
@@ -232,11 +232,11 @@ Metasploit Framework es un conjunto de herramientas de código abierto que se ut
     - Introduccion
         [**Teoría de la protección**](Teoría%20de%20la%20protecció.md)
         [**Almacenamiento de credenciales**](Almacenamiento%20de%20credenciales.md)
-        [**John The Ripper**](John%20The%20Ripper%201ba03ba572bc80f3bb93f1af1b35bd13.md)
+        [**John The Ripper**](John%20The%20Ripper.md)
         
     - **Remote Password Attacks**
-        [**Servicios de red**](Servicios%20de%20red%201ba03ba572bc808fbb94dddcd9d3f095.md)
-        [**Mutaciones de contraseña**](Mutaciones%20de%20contrasen%CC%83a%201ba03ba572bc80169f6cfeb745cc4fd0.md)
+        [**Servicios de red**](Servicios%20de%20re.md)
+        [**Mutaciones de contraseña**](Mutaciones%20de%20contraseña.md)
         [**Contraseñas de reutilización / contraseñas predeterminadas**](Contraseñas%20de%20reutilización%20contraseñas%20predet.md)
         
     - **Ataques de contraseña local de Windows**
@@ -247,65 +247,65 @@ Metasploit Framework es un conjunto de herramientas de código abierto que se ut
         
     - **Linux Local Password Attacks**
         [**Cedencial de caza en Linux**](Cedencial%20de%20caza%20en%20Linux.md)
-        [**Passwd, Shadow & Opasswd**](Passwd,%20Shadow%20&%20Opasswd%201ba03ba572bc80f6ad9de8dfa75ea1a7.md)
+        [**Passwd, Shadow & Opasswd**](Passwd,%20Shadow%20&%20Opasswd.md)
         
     - **Windows Lateral Movement**
-        [**Pass the Hash (PtH)**](Pass%20the%20Hash%20(PtH)%201ba03ba572bc800d80def694aa3ef6d8.md)
-        [**Pase el boleto (PTT) desde Windows**](Pase%20el%20boleto%20(PTT)%20desde%20Windows%201ba03ba572bc8071953deb5fbadc3359.md)
-        [**Pase el boleto (PTT) de Linux**](Pase%20el%20boleto%20(PTT)%20de%20Linux%201ba03ba572bc8086935ffcc78cd8f11e.md)
+        [**Pass the Hash (PtH)**](Pass%20the%20Hash%20(PtH).md)
+        [**Pase el boleto (PTT) desde Windows**](Pase%20el%20boleto%20(PTT)%20desde%20Windows.md)
+        [**Pase el boleto (PTT) de Linux**](Pase%20el%20boleto%20(PTT)%20de%20Linux.md)
         
     - **Cracking Files**
         [**Archivos protegidos**](Archivos%20protegidos.md)
         [**Archivos protegidos**](Archivos%20protegido.md)
         
     - **Password Management**
-        [**Políticas de contraseña**](Poli%CC%81ticas%20de%20contrasen%CC%83a%201ba03ba572bc8007bd90ccaded04e07a.md)
+        [**Políticas de contraseña**](Políticas%20de%20contraseña.md)
         [**Administradores de contraseñas**](Administradores%20de%20contraseñas.md)
 
 Las contraseñas siguen siendo el principal método de autenticación en las redes corporativas. Si no existen políticas de contraseñas seguras, los usuarios a menudo optarán por contraseñas débiles y fáciles de recordar que a menudo pueden descifrarse fuera de línea y usarse para mejorar nuestro acceso. Encontraremos contraseñas de muchas formas durante nuestras evaluaciones. Debemos comprender las diversas formas en que se almacenan, cómo se pueden recuperar, los métodos para descifrar contraseñas débiles, las formas de utilizar hashes que no se pueden descifrar y la búsqueda del uso de contraseñas débiles/predeterminadas.
 
 - **Attacking Common Services**
-    [**Introduction**](Introduction%201bb03ba572bc8015b6ded33f3ccbdf56.md)
+    [**Introduction**](Introduction3.md)
     - **Protocol Specific Attacks**
         [The Concept of Attacks](The%20Concept%20of%20Attacks.md)
-        [Service Misconfigurations](Service%20Misconfigurations%201bb03ba572bc8049a012dd8ca83faf58.md)
+        [Service Misconfigurations](Service%20Misconfigurations.md)
         [Finding Sensitive Information](Finding%20Sensitive%20Information.md)
         
     - **FTP**
         [Attacking FTP](Attacking%20FTP.md)
-        [Latest FTP Vulnerabilities](Latest%20FTP%20Vulnerabilities%201bb03ba572bc8018b0f2fe8df18fb647.md)
+        [Latest FTP Vulnerabilities](Latest%20FTP%20Vulnerabilities.md)
         
     - **SMB**
         [Attacking SMB](Attacking%20SMB.md)
-        [Latest SMB Vulnerabilities](Latest%20SMB%20Vulnerabilities%201bb03ba572bc8038be83dcefd6032da4.md)
+        [Latest SMB Vulnerabilities](Latest%20SMB%20Vulnerabilities.md)
         
     - **SQL Databases**
         [Attacking SQL Databases](Attacking%20SQL%20Database.md)
-        [Latest SQL Vulnerabilities](Latest%20SQL%20Vulnerabilities%201bb03ba572bc8037b75dd989cd75268f.md)
+        [Latest SQL Vulnerabilities](Latest%20SQL%20Vulnerabilities.md)
         
     - **RDP**
         [Attacking RDP](Attacking%20RDP.md)
-        [Latest RDP Vulnerabilities](Latest%20RDP%20Vulnerabilities%201bb03ba572bc800499c7d7be09dd9927.md)
+        [Latest RDP Vulnerabilities](Latest%20RDP%20Vulnerabilities.md)
         
     - **DNS**
         [Attacking DNS](Attacking%20DNS.md)
-        [Latest DNS Vulnerabilities](Latest%20DNS%20Vulnerabilities%201bb03ba572bc800ba5c1c4586f653ebc.md)
+        [Latest DNS Vulnerabilities](Latest%20DNS%20Vulnerabilities.md)
         
     - **SMTP**
         [Attacking Email Services](Attacking%20Email%20Services.md)
-        [Latest Email Service Vulnerabilities](Latest%20Email%20Service%20Vulnerabilities%201bb03ba572bc80dd9702fac4c3064610.md)
+        [Latest Email Service Vulnerabilities](Latest%20Email%20Service%20Vulnerabilities.md)
 
 Las organizaciones utilizan habitualmente un conjunto estándar de servicios para diferentes propósitos. Es vital realizar actividades de pruebas de penetración en cada servicio interna y externamente para garantizar que no introduzcan amenazas a la seguridad. Este módulo cubrirá cómo enumerar cada servicio y probarlo contra vulnerabilidades y exploits conocidos con un conjunto estándar de herramientas.
 
 - **Pivoting, Tunneling, and Port Forwarding**
     - **Introduction**
-        [Introduction to Pivoting, Tunneling, and Port Forwarding](Introduction%20to%20Pivoting,%20Tunneling,%20and%20Port%20Forw%201bb03ba572bc800aa377f1f6fdce1c05.md)
+        [Introduction to Pivoting, Tunneling, and Port Forwarding](Introduction%20to%20Pivoting,%20Tunneling,%20and%20Port%20Forw.md)
         [The Networking Behind Pivoting](The%20Networking%20Behind%20Pivotin.md)
         
     - **Choosing The Dig Site & Starting Our Tunnels**
         [Dynamic Port Forwarding with SSH and SOCKS Tunneling](Dynamic%20Port%20Forwarding%20with%20SSH%20and%20SOCKS%20Tunneli.md)
-        [Remote/Reverse Port Forwarding with SSH](Remote%20Reverse%20Port%20Forwarding%20with%20SSH%201bb03ba572bc80539125e4cb52cf1f6d.md)
-        [Meterpreter Tunneling & Port Forwarding](Meterpreter%20Tunneling%20&%20Port%20Forwarding%201bb03ba572bc808cb695cf19692b20d4.md)
+        [Remote/Reverse Port Forwarding with SSH](Remote%20Reverse%20Port%20Forwarding%20with%20SSH.md)
+        [Meterpreter Tunneling & Port Forwarding](Meterpreter%20Tunneling%20&%20Port%20Forwarding.md)
         
     - **Playing Pong with Socat**
         [Socat Redirection with a Reverse Shell](Socat%20Redirection%20with%20a%20Reverse%20Shell.md)
@@ -315,7 +315,7 @@ Las organizaciones utilizan habitualmente un conjunto estándar de servicios par
         [SSH for Windows: plink.exe](SSH%20for%20Windows%20plink%20exe.md)
         [SSH Pivoting with sshuttle](SSH%20Pivoting%20with%20sshuttle.md)
         [Web Server Pivoting with Rpivot](Web%20Server%20Pivoting%20with%20Rpivot.md)
-        [Port Forwarding with Windows: Netsh](Port%20Forwarding%20with%20Windows%20Netsh%201bb03ba572bc8031baebf1ecdb7fa367.md)
+        [Port Forwarding with Windows: Netsh](Port%20Forwarding%20with%20Windows%20Netsh.md)
     
     - **Branching Out Our Tunnels**
         [DNS Tunneling with Dnscat2](DNS%20Tunneling%20with%20Dnsca.md)
@@ -323,7 +323,7 @@ Las organizaciones utilizan habitualmente un conjunto estándar de servicios par
         [ICMP Tunneling with SOCKS](ICMP%20Tunneling%20with%20SOCKS.md)
         
     - **Double Pivots**
-        [RDP and SOCKS Tunneling with SocksOverRDP](RDP%20and%20SOCKS%20Tunneling%20with%20SocksOverRDP%201bb03ba572bc806fa3f5ccdff3869705.md)
+        [RDP and SOCKS Tunneling with SocksOverRDP](RDP%20and%20SOCKS%20Tunneling%20with%20SocksOverRDP.md)
         
     - **Additional Considerations**
         [Detection & Prevention](Detection%20&%20Preve.md)
@@ -342,13 +342,13 @@ Los marcos de pruebas de penetración de aplicaciones web son una parte esencial
 
 - **Attacking Web Applications with Ffuf**
     - **Introduction**
-        [Introduction](Introduction%201bb03ba572bc8054bb2afe5817488be8.md)
+        [Introduction](Introduction2.md)
         [Web Fuzzing](Web%20Fuzzing.md)
         
     - **Basic Fuzzing**
         [Directory Fuzzing](Directory%20Fuzzin.md)
-        [Page Fuzzing](Page%20Fuzzing%201bb03ba572bc80d0b54cfa85f50dfe98.md)
-        [Recursive Fuzzing](Recursive%20Fuzzing%201bb03ba572bc80d49910ecb2b610cc43.md)
+        [Page Fuzzing](Page%20Fuzzing.md)
+        [Recursive Fuzzing](Recursive%20Fuzzing.md)
         
     - **Domain Fuzzing**
         [DNS Records](DNS%20Recor.md)
@@ -357,14 +357,14 @@ Los marcos de pruebas de penetración de aplicaciones web son una parte esencial
         [Filtering Results](Filtering%20Results.md)
         
     - **Parameter Fuzzing**
-        [Parameter Fuzzing - GET](Parameter%20Fuzzing%20-%20GET%201bb03ba572bc80dca6f2f165e58cb0ce.md)
-        [Parameter Fuzzing - POST](Parameter%20Fuzzing%20-%20POST%201bb03ba572bc806aa07df021d150629b.md)
+        [Parameter Fuzzing - GET](Parameter%20Fuzzing%20-%20GET.md)
+        [Parameter Fuzzing - POST](Parameter%20Fuzzing%20-%20POST.md)
         [Value Fuzzing](Value%20Fuzzing.md)
         
 
 Este módulo cubre las habilidades de enumeración fundamentales de fuzzing web y fuerza bruta de directorios utilizando la herramienta Ffuf. Las técnicas aprendidas en este módulo nos ayudarán a localizar páginas, directorios y parámetros ocultos al apuntar a aplicaciones web.
 
-[**Login Brute Forcing**](Login%20Brute%20Forcing%2016403ba572bc80e69a3eff2e25430975.md)
+[**Login Brute Forcing**](Login%20Brute%20Forcing.md)
 
 El módulo contiene una exploración de técnicas de fuerza bruta, incluido el uso de herramientas como Hydra y Medusa, y la importancia de prácticas de contraseñas seguras. Cubre varios escenarios de ataque, como ataques dirigidos a SSH, FTP y formularios de inicio de sesión web.
 
@@ -377,7 +377,7 @@ El módulo contiene una exploración de técnicas de fuerza bruta, incluido el u
     - **MySQL**
         [Intro to MySQL](Intro%20to%20MySQL.md)
         [SQL Statements](SQL%20Statements.md)
-        [Query Results](Query%20Results%201bc03ba572bc808481a5d4b4a4a21d83.md)
+        [Query Results](Query%20Results.md)
         [SQL Operators](SQL%20Operators.md)
         
     - **SQL Injections**
@@ -389,11 +389,11 @@ El módulo contiene una exploración de técnicas de fuerza bruta, incluido el u
         
     - **Exploitation**
         [Database Enumeration](Database%20Enumerati.md)
-        [Reading Files](Reading%20Files%201bc03ba572bc805ca82cfe7c3de3b7ff.md)
+        [Reading Files](Reading%20Files.md)
         [Writing Files](Writing%20Files.md)
         
     - **Mitigations**
-        [Mitigating SQL Injection](Mitigating%20SQL%20Injection%201bc03ba572bc8037bebef8e147253424.md)
+        [Mitigating SQL Injection](Mitigating%20SQL%20Injection.md)
         
 
 Las bases de datos son una parte importante de la infraestructura de aplicaciones web y SQL (lenguaje de consulta estructurado) para almacenar, recuperar y manipular la información almacenada en ellas. La inyección SQL es una técnica de inyección de código que se utiliza para aprovechar las vulnerabilidades de codificación e inyectar consultas SQL a través de una aplicación para evitar la autenticación, recuperar datos de la base de datos back-end o lograr la ejecución de código en el servidor subyacente.
@@ -405,7 +405,7 @@ Las bases de datos son una parte importante de la infraestructura de aplicacione
         [SQLMap Output Description](SQLMap%20Output%20Description.md)
         
     - **Building Attacks**
-        [Running SQLMap on an HTTP Request](Running%20SQLMap%20on%20an%20HTTP%20Request%201bc03ba572bc80d9b673f7fcff5342b4.md)
+        [Running SQLMap on an HTTP Request](Running%20SQLMap%20on%20an%20HTTP%20Reques.md)
         [Handling SQLMap Errors](Handling%20SQLMap%20Errors.md)
         [Attack Tuning](Attack%20Tuning.md)
         
@@ -415,7 +415,7 @@ Las bases de datos son una parte importante de la infraestructura de aplicacione
         
     - **Advanced SQLMap Usage**
         [Bypassing Web Application Protections](Bypassing%20Web%20Application%20Protections.md)
-        [OS Exploitation](OS%20Exploitation%201bc03ba572bc804084fdc6b8931a3e85.md)
+        [OS Exploitation](OS%20Exploitation.md)
         
 
 El módulo SQLMap Essentials le enseñará los conceptos básicos del uso de SQLMap para descubrir varios tipos de vulnerabilidades de inyección SQL, hasta la enumeración avanzada de bases de datos para recuperar todos los datos de interés.
@@ -425,17 +425,17 @@ El módulo SQLMap Essentials le enseñará los conceptos básicos del uso de SQL
 Las vulnerabilidades de secuencias de comandos entre sitios (XSS) se encuentran entre las vulnerabilidades de aplicaciones web más comunes. Una vulnerabilidad XSS puede permitir a un atacante ejecutar código JavaScript arbitrario dentro del navegador del objetivo y comprometer completamente la aplicación web si se encadena con otras vulnerabilidades. Este módulo le enseñará cómo identificar vulnerabilidades XSS y explotarlas.
 
 - **File Inclusion**
-    [**Introduction**](Introduction%201bb03ba572bc805a9650cda2f0893f63.md)
+    [**Introduction**](Introduction4.md)
     - **File Disclosure**
-        [Local File Inclusion (LFI)](Local%20File%20Inclusion%20(LFI)%201bb03ba572bc8034bde3ebba2b7f65b7.md)
+        [Local File Inclusion (LFI)](Local%20File%20Inclusion%20(LFI).md)
         [Basic Bypasses](Basic%20Bypasses.md)
-        [PHP Filters](PHP%20Filters%201bb03ba572bc8033afcbfc5e12945d99.md)
+        [PHP Filters](PHP%20Filters.md)
         
     - **Remote Code Execution**
-        [PHP Wrappers](PHP%20Wrappers%201bb03ba572bc805ebd60f0a03f46e357.md)
-        [Remote File Inclusion (RFI)](Remote%20File%20Inclusion%20(RFI)%201bb03ba572bc809aa619dbe32244c6ed.md)
-        [LFI and File Uploads](LFI%20and%20File%20Uploads%201bb03ba572bc8008b128e107fe482166.md)
-        [Log Poisoning](Log%20Poisoning%201bb03ba572bc80b38eafc38f7ddee2cc.md)
+        [PHP Wrappers](PHP%20Wrappers.md)
+        [Remote File Inclusion (RFI)](Remote%20File%20Inclusion%20(RFI).md)
+        [LFI and File Uploads](LFI%20and%20File%20Uploads.md)
+        [Log Poisoning](Log%20Poisoning.md)
         
     - **Automation and Prevention**
         [Automated Scanning](Automated%20Scanning.md)
@@ -448,12 +448,12 @@ La inclusión de archivos es una vulnerabilidad común de las aplicaciones web, 
 La carga arbitraria de archivos se encuentra entre las vulnerabilidades web más críticas. Estas fallas permiten a los atacantes cargar archivos maliciosos, ejecutar comandos arbitrarios en el servidor back-end e incluso tomar el control de todo el servidor y de todas las aplicaciones web alojadas en él y potencialmente obtener acceso a datos confidenciales o causar una interrupción del servicio.
 
 - **Command Injections**
-    - [**Introducción a las inyecciones de comando**](Introduccio%CC%81n%20a%20las%20inyecciones%20de%20comando%201bb03ba572bc80fe8f25e09978a55152.md)
+    - [**Introducción a las inyecciones de comando**](Introducción%20a%20las%20inyecciones%20de%20comando.md)
     
     - **Exploitation**
         [Detection](Detectio.md)
         [Injecting Commands](Injecting%20Commands.md)
-        [Other Injection Operators](Other%20Injection%20Operators%201bb03ba572bc8009a631da69fe4fea30.md)
+        [Other Injection Operators](Other%20Injection%20Operators.md)
         
     - **Filter Evasion**
         [Identifying Filters](Identifying%20Filters.md)
@@ -470,7 +470,7 @@ La carga arbitraria de archivos se encuentra entre las vulnerabilidades web más
 Las vulnerabilidades de inyección de comandos se pueden aprovechar para comprometer un servidor de alojamiento y toda su red. Este módulo le enseñará cómo identificar y explotar vulnerabilidades de inyección de comandos y cómo utilizar diversas técnicas de omisión de filtros para evitar mitigaciones de seguridad.
 
 - **Web Attacks**
-    - [**Introduction to Web Attacks**](Introduction%20to%20Web%20Attacks%201bb03ba572bc808f9fd5cdc1302b55bc.md)
+    - [**Introduction to Web Attacks**](Introduction%20to%20Web%20Attacks.md)
     
     - **HTTP Verb Tampering**
         [Intro to HTTP Verb Tampering](Intro%20to%20HTTP%20Verb%20Tampering.md)
@@ -481,7 +481,7 @@ Las vulnerabilidades de inyección de comandos se pueden aprovechar para comprom
     - **Insecure Direct Object References (IDOR)**
         [Intro to IDOR](Intro%20to%20IDOR.md)
         [Identifying IDORs](Identifying%20IDORs.md)
-        [Mass IDOR Enumeration](Mass%20IDOR%20Enumeration%201bb03ba572bc80c19f54f552744b0795.md)
+        [Mass IDOR Enumeration](Mass%20IDOR%20Enumeration.md)
         [Bypassing Encoded References](Bypassing%20Encoded%20References.md)
         [IDOR in Insecure APIs](IDOR%20in%20Insecure%20APIs.md)
         [Chaining IDOR Vulnerabilities](Chaining%20IDOR%20Vulnerabilities.md)
@@ -489,7 +489,7 @@ Las vulnerabilidades de inyección de comandos se pueden aprovechar para comprom
         
     - **XML External Entity (XXE) Injection**
         [Intro to XXE](Intro%20to%20XXE.md)
-        [Local File Disclosure](Local%20File%20Disclosure%201bb03ba572bc8036b1b3e3565891bf69.md)
+        [Local File Disclosure](Local%20File%20Disclosure.md)
         [Advanced File Disclosure](Advanced%20File%20Disclosure.md)
         [Blind Data Exfiltration](Blind%20Data%20Exfiltration.md)
         [XXE Prevention](XXE%20Prevention.md)
@@ -499,13 +499,13 @@ Este módulo cubre tres vulnerabilidades web comunes: HTTP Verb Tampering, IDOR 
 
 - **Attacking Common Applications**
     - **Setting the Stage**
-        [Introduction to Attacking Common Applications](Introduction%20to%20Attacking%20Common%20Applications%201bb03ba572bc800e8252c303fe540114.md)
+        [Introduction to Attacking Common Applications](Introduction%20to%20Attacking%20Common%20Applications.md)
         [Application Discovery & Enumeration](Application%20Discovery%20&%20Enumeration.md)
         
     - **Content Management Systems (CMS)**
         [WordPress - Discovery & Enumeration](WordPress%20-%20Discovery%20&%20Enumeration.md)
         [Attacking WordPress](Attacking%20WordPress.md)
-        [Joomla - Discovery & Enumeration](Joomla%20-%20Discovery%20&%20Enumeration%201bb03ba572bc80cdb1dccbfe7e118fb6.md)
+        [Joomla - Discovery & Enumeration](Joomla%20-%20Discovery%20&%20Enumeration.md)
         [Attacking Joomla](Attacking%20Joomla.md)
         [Drupal - Discovery & Enumeration](Drupal%20-%20Discovery%20&%20Enumer.md)
         [Attacking Drupal](Attacking%20Drupal.md)
@@ -513,16 +513,16 @@ Este módulo cubre tres vulnerabilidades web comunes: HTTP Verb Tampering, IDOR 
     - **Servlet Containers/Software Development**
         [Tomcat - Discovery & Enumeration](Tomcat%20-%20Discovery%20&%20Enumeration.md)
         [Attacking Tomcat](Attacking%20Tomcat.md)
-        [Jenkins - Discovery & Enumeration](Jenkins%20-%20Discovery%20&%20Enumeration%201bb03ba572bc80028337d9e87047bc25.md)
+        [Jenkins - Discovery & Enumeration](Jenkins%20-%20Discovery%20&%20Enumeration.md)
         [Attacking Jenkins](Attacking%20Jenkins.md)
         
     - **Infrastructure/Network Monitoring Tools**
         [Splunk - Discovery & Enumeration](Splunk%20-%20Discovery%20&%20Enumeration.md)
         [Attacking Splunk](Attacking%20Splunk.md)
-        [PRTG Network Monitor](PRTG%20Network%20Monitor%201bb03ba572bc80f98d17fce0845044c1.md)
+        [PRTG Network Monitor](PRTG%20Network%20Monitor.md)
         
     - **Customer Service Mgmt & Configuration Management**
-        [osTicket](osTicket%201bb03ba572bc808fba73da46bb6872c2.md)
+        [osTicket](osTicket.md)
         [Gitlab - Discovery & Enumeration](Gitlab%20-%20Discovery%20&%20Enumeration.md)
         [Attacking GitLab](Attacking%20GitLab.md)
         
@@ -541,7 +541,7 @@ Este módulo cubre tres vulnerabilidades web comunes: HTTP Verb Tampering, IDOR 
         [Attacking LDAP](Attacking%20LDAP.md)
         [Web Mass Assignment Vulnerabilities](Web%20Mass%20Assignment%20Vulnerabilities.md)
         [Attacking Applications Connecting to Services](Attacking%20Applications%20Connecting%20to%20Services.md)
-        [Other Notable Applications](Other%20Notable%20Applications%201bb03ba572bc802e9f86f9e711da5e45.md)
+        [Other Notable Applications](Other%20Notable%20Applications.md)
         
     - **Closing Out**
         [Application Hardening](Application%20Hardening.md)
@@ -550,7 +550,7 @@ Este módulo cubre tres vulnerabilidades web comunes: HTTP Verb Tampering, IDOR 
 
 Los probadores de penetración pueden encontrar varias aplicaciones, como sistemas de gestión de contenido, aplicaciones web personalizadas, portales internos utilizados por desarrolladores y administradores de sistemas, y más. Es común encontrar las mismas aplicaciones en muchos entornos diferentes. Si bien es posible que una aplicación no sea vulnerable en un entorno, es posible que esté mal configurada o sin parches en el siguiente. Es importante, como evaluador, tener una sólida comprensión de cómo enumerar y atacar las aplicaciones comunes analizadas en este módulo. Este conocimiento ayudará cuando se encuentre con otros tipos de aplicaciones durante las evaluaciones.
 
-[**Linux Privilege Escalation**](Linux%20Privilege%20Escalation%2016403ba572bc803bbdeaf88707a9c3a5.md)
+[**Linux Privilege Escalation**](Linux%20Privilege%20Escalation.md)
 
 La escalada de privilegios es una fase crucial durante cualquier evaluación de seguridad. Durante esta fase, intentamos obtener acceso a usuarios, hosts y recursos adicionales para acercarnos al objetivo general de la evaluación. Hay muchas formas de aumentar los privilegios. Este módulo tiene como objetivo cubrir los métodos más comunes, enfatizando las configuraciones erróneas y fallas del mundo real que podemos encontrar en el entorno de un cliente. Las técnicas cubiertas en este módulo no son una lista exhaustiva de todas las posibilidades y tienen como objetivo evitar tácticas extremas de "casos extremos" que pueden verse en un ejercicio de Captura de Bandera (CTF).
 

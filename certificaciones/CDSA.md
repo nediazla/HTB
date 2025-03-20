@@ -100,9 +100,9 @@ Microsoft Active Directory (AD) ha sido, durante los últimos 20 años, la suite
         
         [Análisis de tráfico de red](Análisis%20de%20tráfico%20de%20red.md)
         
-        [Primer de redes - Capas 1-4](Primer%20de%20redes%20-%20Capas%201-4%2018e03ba572bc8053a7c8c4d0b1c22c89.md)
+        [Primer de redes - Capas 1-4](Primer%20de%20redes%20-%20Capas%201-4.md)
         
-        [Primer de redes - Capas 5-7](Primer%20de%20redes%20-%20Capas%205-7%2018e03ba572bc80e090a5db6f77e173bc.md)
+        [Primer de redes - Capas 5-7](Primer%20de%20redes%20-%20Capas%205-7.md)
         
     - **Análisis**
         
@@ -130,7 +130,7 @@ Microsoft Active Directory (AD) ha sido, durante los últimos 20 años, la suite
         
         [Incepción de paquetes, diseccionar el tráfico de red con Wireshark](Incepción%20de%20paquetes,%20diseccionar%20el%20tráfico.md)
         
-        [Laboratorio guiado: flujo de trabajo de análisis de tráfico](Laboratorio%20guiado%20flujo%20de%20trabajo%20de%20ana%CC%81lisis%20d%2018e03ba572bc80b88e71f6636f18cadd.md)
+        [Laboratorio guiado: flujo de trabajo de análisis de tráfico](Laboratorio%20guiado%20flujo%20de%20trabajo%20de%20análisis%20d.md)
         
         [Descifrar conexiones RDP](Descifrar%20conexiones%20RDP.md)
         
@@ -151,15 +151,15 @@ Los equipos de seguridad utilizan el análisis del tráfico de red para monitore
         
         [802.11 Denial-of-Service](802%2011%20Denial-of-Service%201a603ba572bc80f2b003eb4df924e046.md)
         
-        [Rogue Access Point & Evil-Twin Attacks](Rogue%20Access%20Point%20&%20Evil-Twin%20Attacks%201a603ba572bc80a1b64bcb0d9143e620.md)
+        [Rogue Access Point & Evil-Twin Attacks](HTB/certificaciones/Rogue%20Access%20Point%20&%20Evil-Twin%20Attacks.md)
         
     - **Detecting Network Abnormalities**
         
         [Fragmentation Attacks](HTB/certificaciones/Fragmentation%20Attacks.md)
         
-        [IP Source & Destination Spoofing Attacks](IP%20Source%20&%20Destination%20Spoofing%20Attacks%201a603ba572bc807fb716c001c906d25b.md)
+        [IP Source & Destination Spoofing Attacks](HTB/certificaciones/IP%20Source%20&%20Destination%20Spoofing%20Attacks.md)
         
-        [IP Time-to-Live Attacks](IP%20Time-to-Live%20Attacks%201a603ba572bc805c8fffc796beae024e.md)
+        [IP Time-to-Live Attacks](HTB/certificaciones/IP%20Time-to-Live%20Attacks.md)
         
         [TCP Handshake Abnormalities](HTB/certificaciones/TCP%20Handshake%20Abnormalities.md)
         
@@ -177,7 +177,7 @@ Los equipos de seguridad utilizan el análisis del tráfico de red para monitore
         
         [SSL Renegotiation Attacks](HTB/certificaciones/SSL%20Renegotiation%20Attacks.md)
         
-        [Peculiar DNS Traffic](Peculiar%20DNS%20Traffic%201a603ba572bc809da639fb1af4ebd02f.md)
+        [Peculiar DNS Traffic](HTB/certificaciones/Peculiar%20DNS%20Traffic.md)
         
         [Strange Telnet & UDP Connections](HTB/certificaciones/Strange%20Telnet%20&%20UDP%20Connections.md)
         
@@ -186,7 +186,7 @@ A través del análisis del tráfico de red, este módulo mejora las habilidades
 
 - **Working with IDS/IPS**
     
-    [**Introduction To IDS/IPS**](Introduction%20To%20IDS%20IPS%201b003ba572bc80ddb895e995b93daa6e.md)
+    [**Introduction To IDS/IPS**](Introduction%20To%20IDS%20IPS.md)
     
     - **Suricata**
         
@@ -214,7 +214,7 @@ Este módulo ofrece una exploración en profundidad de Suricata, Snort y Zeek, c
 
 - **Introduction to Malware Analysis**
     
-    [**Introducción al análisis de malware y malware**](Introduccio%CC%81n%20al%20ana%CC%81lisis%20de%20malware%20y%20malware%201b703ba572bc80cda936da2c740dc43f.md)
+    [**Introducción al análisis de malware y malware**](Introducción%20al%20análisis%20de%20malware%20y%20malware.md)
     
     - **Prerequisites**
         
@@ -244,7 +244,7 @@ Este módulo ofrece una exploración del análisis de malware, específicamente 
 - **JavaScript Deobfuscation**
     - **Introduction**
         
-        [**Introduction**](Introduction%2016803ba572bc80ebb09bdc30c2c091a7.md)
+        [**Introduction**](Introduction.md)
         
         [**Source Code**](Source%20Code.md)
         
@@ -271,11 +271,11 @@ Este módulo lo llevará paso a paso a través de los fundamentos de la desofusc
 
 - **YARA & Sigma for SOC Analysts**
     
-    [**Introduction to YARA & Sigma**](Introduction%20to%20YARA%20&%20Sigma%201b703ba572bc803680dde691a6e2d0d2.md)
+    [**Introduction to YARA & Sigma**](Introduction%20to%20YARA%20&%20Sigma.md)
     
     - **Aprovechando a Yara**
         
-        [**Reglas de Yara y Yara**](Reglas%20de%20Yara%20y%20Yara%201b703ba572bc80fb8672e262f7be1688.md)
+        [**Reglas de Yara y Yara**](Reglas%20de%20Yara%20y%20Yara.md)
         
         [**Desarrollo de las reglas de Yara**](Desarrollo%20de%20las%20reglas%20de%20Yara.md)
         
@@ -290,7 +290,7 @@ Este módulo lo llevará paso a paso a través de los fundamentos de la desofusc
         
     - **Leveraging Sigma**
         
-        [**Reglas de Sigma y Sigma**](Reglas%20de%20Sigma%20y%20Sigma%201b703ba572bc80efa159f6a28ebe2309.md)
+        [**Reglas de Sigma y Sigma**](Reglas%20de%20Sigma%20y%20Sigma.md)
         
         [**Desarrollo de reglas de Sigma**](Desarrollo%20de%20reglas%20de%20Sigma.md)
         
@@ -303,7 +303,7 @@ Este módulo de Hack The Box Academy cubre cómo crear reglas YARA tanto de form
 
 - **Introduction to Digital Forensics**
     
-    [**Introducción a los forenses digitales**](Introduccio%CC%81n%20a%20los%20forenses%20digitales%201b703ba572bc8066bff9c6ca7600ce98.md)
+    [**Introducción a los forenses digitales**](Introducción%20a%20los%20forenses%20digitales.md)
     
     [**Descripción general forense de Windows**](Descripción%20general%20forense%20de%20Windows.md)
     
@@ -325,7 +325,7 @@ Sumérgete en la ciencia forense digital de Windows con el módulo "Introducció
 - **Detecting Windows Attacks with Splunk**
     - **Leveraging Windows Event Logs**
         
-        [**Leveraging Windows Event Logs**](Leveraging%20Windows%20Event%20Logs%201b703ba572bc804da6cbd181260e465c.md)
+        [**Leveraging Windows Event Logs**](Leveraging%20Windows%20Event%20Logs.md)
         
         [**Detectar la pulverización de contraseña**](Detectar%20la%20pulverización%20de%20contrase.md)
         
