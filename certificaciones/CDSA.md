@@ -58,7 +58,7 @@ Inicialmente, este módulo sienta las bases para comprender la caza de amenazas,
 	    - [Introduction To Splunk & SPL](Introduction%20To%20Splunk%20&%20SPL.md)
 	    - [Using Splunk Applications](Using%20Splunk%20Applications.md)
     - **Investigating With Splunk**
-	    - [Intrusion Detection With Splunk](Intrusion%20Detection%20With%20Splunk%20(Real-world%20Scenar%2017b03ba572bc80ca82f2c10f52a3c89d.md)
+	    - [Intrusion Detection With Splunk](Intrusion%20Detection%20With%20Splunk.md)
 	    - [Detecting Attacker Behavior With Splunk Based On TTPs](Detecting%20Attacker%20Behavior%20With%20Splunk%20Based%20On%20T.md)
 	    - [Detecting Attacker Behavior With Splunk Based On Analytics](Detecting%20Attacker%20Behavior%20With%20Splunk%20Based%20On%20A.md)
 
@@ -138,7 +138,7 @@ A través del análisis del tráfico de red, este módulo mejora las habilidades
     - **Suricata**
 	    - [Fundamentos de Suricata](Fundamentos%20de%20Suricata.md)
 	    - [Desarrollo de reglas de Suricata Parte 1](Desarrollo%20de%20reglas%20de%20Suricata%20Parte%201.md)
-	    - [Desarrollo de reglas de Suricata Parte 2](Desarrollo%20de%20reglas%20de%20Suricata%20Parte 2.md)
+	    - [Desarrollo de reglas de Suricata Parte 2](Desarrollo%20de%20reglas%20de%20Suricata%20Parte%202.md)
     - Snort
 	    - [Snort Fundaments](Snort%20Fundaments.md)
 	    - [Desarrollo de reglas de inicio](Desarrollo%20de%20reglas%20de%20inicio.md)
