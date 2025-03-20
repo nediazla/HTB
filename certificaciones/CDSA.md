@@ -84,7 +84,7 @@ Este módulo proporciona una introducción completa a Splunk, centrándose en su
         [GPP Passwords](GPP%20Passwords.md)
         [GPO Permissions/GPO Files](GPO%20Permissions%20GPO%20Files.md)
         [Credentials in Shares](Credentials%20in%20Shares.md)
-        [Credentials in Object Properties](Credentials%20in%20Object%20Properties%2018e03ba572bc807d86a5ef9ce307f1dc.md)
+        [Credentials in Object Properties](Credentials%20in%20Object%20Properties.md)
         [DCSync](HTB/certificaciones/DCSync.md)
         [Golden Ticket](HTB/certificaciones/Golden%20Ticket.md)
         [Kerberos Constrained Delegation](HTB/certificaciones/Kerberos%20Constrained%20Delegation.md)
@@ -106,33 +106,33 @@ Microsoft Active Directory (AD) ha sido, durante los últimos 20 años, la suite
         
     - **Análisis**
         
-        [El proceso de análisis](El%20proceso%20de%20ana%CC%81lisis%2018e03ba572bc8087b5d9fceb619f682a.md)
+        [El proceso de análisis](El%20proceso%20de%20análisis.md)
         
         [Análisis en la práctica](Análisis%20en%20la%20práctica.md)
         
     - **Tcpdump**
         
-        [Fundamentos tcpdump](Fundamentos%20tcpdump%2018e03ba572bc8070b32fc75a0023c2cb.md)
+        [Fundamentos tcpdump](Fundamentos%20tcpdump.md)
         
         [Capturar con TCPDUMP (Fundamentals Labs)](Capturar%20con%20TCPDUMP%20(Fundamentals%20Labs).md)
         
-        [Filtrado de paquetes tcpdump](Filtrado%20de%20paquetes%20tcpdump%2018e03ba572bc8090a0c2f926b5b7f544.md)
+        [Filtrado de paquetes tcpdump](Filtrado%20de%20paquetes%20tcpdump.md)
         
-        [Interrogar el tráfico de red con filtros de captura y visualización](Interrogar%20el%20tra%CC%81fico%20de%20red%20con%20filtros%20de%20captu%2018e03ba572bc80febe8be9a6d20481e9.md)
+        [Interrogar el tráfico de red con filtros de captura y visualización](Interrogar%20el%20tráfico%20de%20red%20con%20filtros%20de%20captu.md)
         
     - **Wireshark**
         
         [Análisis con Wireshark](Análisis%20con%20Wireshark.md)
         
-        [Familiaridad con Wireshark](Familiaridad%20con%20Wireshark%2018e03ba572bc8061ac13ff701f25a8e2.md)
+        [Familiaridad con Wireshark](Familiaridad%20con%20Wireshark.md)
         
-        [Uso avanzado de Wireshark](Uso%20avanzado%20de%20Wireshark%2018e03ba572bc80ec9d4ee63ab0da7609.md)
+        [Uso avanzado de Wireshark](Uso%20avanzado%20de%20Wireshark.md)
         
-        [Incepción de paquetes, diseccionar el tráfico de red con Wireshark](Incepcio%CC%81n%20de%20paquetes,%20diseccionar%20el%20tra%CC%81fico%20de%2018e03ba572bc80ceb659fbbe5763621e.md)
+        [Incepción de paquetes, diseccionar el tráfico de red con Wireshark](Incepción%20de%20paquetes,%20diseccionar%20el%20tráfico.md)
         
         [Laboratorio guiado: flujo de trabajo de análisis de tráfico](Laboratorio%20guiado%20flujo%20de%20trabajo%20de%20ana%CC%81lisis%20d%2018e03ba572bc80b88e71f6636f18cadd.md)
         
-        [Descifrar conexiones RDP](Descifrar%20conexiones%20RDP%2018e03ba572bc8044a240f6ab1efcc990.md)
+        [Descifrar conexiones RDP](Descifrar%20conexiones%20RDP.md)
         
     
 
@@ -141,7 +141,7 @@ Los equipos de seguridad utilizan el análisis del tráfico de red para monitore
 - **Intermediate Network Traffic Analysis**
     - **Introduction**
         
-        [Intermediate Network Traffic Analysis Overview](Intermediate%20Network%20Traffic%20Analysis%20Overview%201a603ba572bc8006b840c2d921bf6171.md)
+        [Intermediate Network Traffic Analysis Overview](Intermediate%20Network%20Traffic%20Analysis%20Overview.md)
         
     - **Link Layer Attacks**
         
@@ -155,31 +155,31 @@ Los equipos de seguridad utilizan el análisis del tráfico de red para monitore
         
     - **Detecting Network Abnormalities**
         
-        [Fragmentation Attacks](Fragmentation%20Attacks%201a603ba572bc8037a7a1f9932cfe762f.md)
+        [Fragmentation Attacks](HTB/certificaciones/Fragmentation%20Attacks.md)
         
         [IP Source & Destination Spoofing Attacks](IP%20Source%20&%20Destination%20Spoofing%20Attacks%201a603ba572bc807fb716c001c906d25b.md)
         
         [IP Time-to-Live Attacks](IP%20Time-to-Live%20Attacks%201a603ba572bc805c8fffc796beae024e.md)
         
-        [TCP Handshake Abnormalities](TCP%20Handshake%20Abnormalities%201a603ba572bc803f8c37cc86650b8987.md)
+        [TCP Handshake Abnormalities](HTB/certificaciones/TCP%20Handshake%20Abnormalities.md)
         
-        [TCP Connection Resets & Hijacking](TCP%20Connection%20Resets%20&%20Hijacking%201a603ba572bc806fa0cbdada3766fd41.md)
+        [TCP Connection Resets & Hijacking](HTB/certificaciones/TCP%20Connection%20Resets%20&%20Hijacking.md)
         
-        [ICMP Tunneling](ICMP%20Tunneling%201a603ba572bc80ffba3dd31d531e2b20.md)
+        [ICMP Tunneling](HTB/certificaciones/ICMP%20Tunneling.md)
         
     - **Application Layer Attacks**
         
-        [HTTP/HTTPs Service Enumeration Detection](HTTP%20HTTPs%20Service%20Enumeration%20Detection%201a603ba572bc80c8a2cbd10fdd41c5a9.md)
+        [HTTP/HTTPs Service Enumeration Detection](HTTP%20HTTPs%20Service%20Enumeration%20Detection.md)
         
-        [Strange HTTP Headers](Strange%20HTTP%20Headers%201a603ba572bc807c9442d2e7d56f60d5.md)
+        [Strange HTTP Headers](HTB/certificaciones/Strange%20HTTP%20Headers.md)
         
-        [Cross-Site Scripting (XSS) & Code Injection Detection](Cross-Site%20Scripting%20(XSS)%20&%20Code%20Injection%20Detect%201a603ba572bc801db501f51ef8b9dad1.md)
+        [Cross-Site Scripting (XSS) & Code Injection Detection](Cross-Site%20Scripting%20(XSS)%20&%20Code%20Injection%20Detect.md)
         
-        [SSL Renegotiation Attacks](SSL%20Renegotiation%20Attacks%201a603ba572bc80e3b76ed191fc068577.md)
+        [SSL Renegotiation Attacks](HTB/certificaciones/SSL%20Renegotiation%20Attacks.md)
         
         [Peculiar DNS Traffic](Peculiar%20DNS%20Traffic%201a603ba572bc809da639fb1af4ebd02f.md)
         
-        [Strange Telnet & UDP Connections](Strange%20Telnet%20&%20UDP%20Connections%201a603ba572bc8092ba26ed8aa009fd4c.md)
+        [Strange Telnet & UDP Connections](HTB/certificaciones/Strange%20Telnet%20&%20UDP%20Connections.md)
         
 
 A través del análisis del tráfico de red, este módulo mejora las habilidades para detectar ataques a la capa de enlace, como anomalías de ARP y puntos de acceso no autorizados, identificar anomalías de la red como suplantación de IP e irregularidades en el protocolo de enlace TCP, y descubrir amenazas a la capa de aplicación, desde vulnerabilidades basadas en la web hasta actividades DNS peculiares.
@@ -190,23 +190,23 @@ A través del análisis del tráfico de red, este módulo mejora las habilidades
     
     - **Suricata**
         
-        [Fundamentos de Suricata](Fundamentos%20de%20Suricata%201b003ba572bc80ff9781c1a7046d9ddd.md)
+        [Fundamentos de Suricata](Fundamentos%20de%20Suricata.md)
         
-        [Desarrollo de reglas de Suricata Parte 1](Desarrollo%20de%20reglas%20de%20Suricata%20Parte%201%201b003ba572bc805e9444d4b032508676.md)
+        [Desarrollo de reglas de Suricata Parte 1](Desarrollo%20de%20reglas%20de%20Suricata%20Parte%201.md)
         
         [Desarrollo de reglas de Suricata Parte 2 (tráfico cifrado)](Desarrollo%20de%20reglas%20de%20Suricata%20Parte%202%20(tra%CC%81fico%201b003ba572bc8046ab3cf86408037061.md)
         
     - Snort
         
-        [Snort Fundaments](Snort%20Fundaments%201b003ba572bc80adac41e829854e67f0.md)
+        [Snort Fundaments](Snort%20Fundaments.md)
         
-        [Desarrollo de reglas de inicio](Desarrollo%20de%20reglas%20de%20inicio%201b003ba572bc80008857d1ed6fbd5cdc.md)
+        [Desarrollo de reglas de inicio](Desarrollo%20de%20reglas%20de%20inicio.md)
         
     - Zeek
         
-        [Fundamentos de Zeek](Fundamentos%20de%20Zeek%201b003ba572bc80ca873cd6b0c271ccb8.md)
+        [Fundamentos de Zeek](Fundamentos%20de%20Zeek.md)
         
-        [Detección de intrusión con Zeek](Deteccio%CC%81n%20de%20intrusio%CC%81n%20con%20Zeek%201b003ba572bc80a580a9ee5bcd601f11.md)
+        [Detección de intrusión con Zeek](Detección%20de%20intrusión%20con%20Zeek.md)
         
     
 
@@ -218,7 +218,7 @@ Este módulo ofrece una exploración en profundidad de Suricata, Snort y Zeek, c
     
     - **Prerequisites**
         
-        [**Windows -THERAL**](Windows%20-THERAL%201b703ba572bc808a804dc06641e1a3d7.md)
+        [**Windows -THERAL**](Windows%20-THERAL.md)
         
     - **Static Analysis**
         
@@ -227,16 +227,16 @@ Este módulo ofrece una exploración en profundidad de Suricata, Snort y Zeek, c
         [**Análisis estático en Windows**](Análisis%20estático%20en%20Windows.md)
         
     
-    [**Dynamic Analysis**](Dynamic%20Analysis%201b703ba572bc80e1b5accc4a348aa55c.md)
+    [**Dynamic Analysis**](HTB/certificaciones/Dynamic%20Analysis.md)
     
     - **Code Analysis**
         
         [**Análisis de código**](Análisis%20de%20código.md)
         
-        [**Debugging**](Debugging%201b703ba572bc808ea406db5a37f18083.md)
+        [**Debugging**](HTB/certificaciones/Debugging.md)
         
     
-    [**Creating Detection Rules**](Creating%20Detection%20Rules%201b703ba572bc80069563cbbc5798741f.md)
+    [**Creating Detection Rules**](HTB/certificaciones/Creating%20Detection%20Rules.md)
     
 
 Este módulo ofrece una exploración del análisis de malware, específicamente dirigido a amenazas basadas en Windows. El módulo cubre el análisis estático utilizando herramientas de Linux y Windows, desempaquetado de malware, análisis dinámico (incluido el análisis de tráfico de malware), ingeniería inversa para análisis de código y depuración utilizando x64dbg. Se analizan ejemplos de malware del mundo real como WannaCry, DoomJuice, Brbbot, Dharma y Meterpreter para proporcionar experiencia práctica.
@@ -246,25 +246,25 @@ Este módulo ofrece una exploración del análisis de malware, específicamente 
         
         [**Introduction**](Introduction%2016803ba572bc80ebb09bdc30c2c091a7.md)
         
-        [**Source Code**](Source%20Code%2016803ba572bc80f897a8ebbd5a11281f.md)
+        [**Source Code**](Source%20Code.md)
         
     - **Obfuscation**
         
-        [**Code Obfuscation**](Code%20Obfuscation%2016803ba572bc80149570d8a0771acbfc.md)
+        [**Code Obfuscation**](Code%20Obfuscation.md)
         
         [**Basic Obfuscation**](Basic%20Obfuscation.md)
         
         [**Advanced Obfuscation**](Advanced%20Obfuscation.md)
         
-        [**Deobfuscation**](Deobfuscation%2016803ba572bc804fbc7fcaceedc7bfbc.md)
+        [**Deobfuscation**](Deobfuscation.md)
         
     - **Deobfuscation Examples**
         
-        [**Code Analysis**](Code%20Analysis%2016803ba572bc80eb8bcaffa8328d1168.md)
+        [**Code Analysis**](HTB/certificaciones/Code%20Analysis.md)
         
-        [**HTTP Requests**](HTTP%20Requests%2016803ba572bc8088b25fd08881ce1b34.md)
+        [**HTTP Requests**](HTB/certificaciones/HTTP%20Requests.md)
         
-        [**Decoding**](Decoding%2016803ba572bc80e48922f1094d7ad6fc.md)
+        [**Decoding**](HTB/certificaciones/Decoding.md)
         
 
 Este módulo lo llevará paso a paso a través de los fundamentos de la desofuscación de JavaScript hasta que pueda desofuscar el código JavaScript básico y comprender su propósito.
@@ -277,13 +277,13 @@ Este módulo lo llevará paso a paso a través de los fundamentos de la desofusc
         
         [**Reglas de Yara y Yara**](Reglas%20de%20Yara%20y%20Yara%201b703ba572bc80fb8672e262f7be1688.md)
         
-        [**Desarrollo de las reglas de Yara**](Desarrollo%20de%20las%20reglas%20de%20Yara%201b703ba572bc80318301d7bb6c1dfa88.md)
+        [**Desarrollo de las reglas de Yara**](Desarrollo%20de%20las%20reglas%20de%20Yara.md)
         
-        [**Hunting Evil con Yara (edición de Windows)**](Hunting%20Evil%20con%20Yara%20(edicio%CC%81n%20de%20Windows)%201b703ba572bc806694b3ea22f495fe52.md)
+        [**Hunting Evil con Yara (edición de Windows)**](Hunting%20Evil%20con%20Yara%20(edición%20de%20Windows).md)
         
-        [**Hunting Evil con Yara (edición de Linux)**](Hunting%20Evil%20con%20Yara%20(edicio%CC%81n%20de%20Linux)%201b703ba572bc800d97bff1a884fac021.md)
+        [**Hunting Evil con Yara (edición de Linux)**](Hunting%20Evil%20con%20Yara%20(edición%20de%20Linux).md)
         
-        [**Hunting Evil con Yara (edición web)**](Hunting%20Evil%20con%20Yara%20(edicio%CC%81n%20web)%201b703ba572bc80828eb4f4280f47bd39.md)
+        [**Hunting Evil con Yara (edición web)**](Hunting%20Evil%20con%20Yara%20(edición%20web).md)
         
     - Leveraging and Sigma Rules
         
@@ -292,11 +292,11 @@ Este módulo lo llevará paso a paso a través de los fundamentos de la desofusc
         
         [**Reglas de Sigma y Sigma**](Reglas%20de%20Sigma%20y%20Sigma%201b703ba572bc80efa159f6a28ebe2309.md)
         
-        [**Desarrollo de reglas de Sigma**](Desarrollo%20de%20reglas%20de%20Sigma%201b703ba572bc80afa579d177f130b409.md)
+        [**Desarrollo de reglas de Sigma**](Desarrollo%20de%20reglas%20de%20Sigma.md)
         
         [**Caza del mal con Sigma (edición de motosierra)**](Caza%20del%20mal%20con%20Sigma%20(edición%20de%20motosierra).md)
         
-        [**Hunting Evil con Sigma (edición Splunk)**](Hunting%20Evil%20con%20Sigma%20(edicio%CC%81n%20Splunk)%201b703ba572bc808db4b9c0ffcc4964f4.md)
+        [**Hunting Evil con Sigma (edición Splunk)**](Hunting%20Evil%20con%20Sigma%20(edición%20Splunk).md)
         
 
 Este módulo de Hack The Box Academy cubre cómo crear reglas YARA tanto de forma manual como automática y aplicarlas para buscar amenazas en el disco, procesos en vivo, memoria y bases de datos en línea. Luego, el módulo cambia a las reglas de Sigma que cubren cómo crear reglas de Sigma, traducirlas en consultas SIEM usando "sigmac" y buscar amenazas tanto en registros de eventos como en soluciones SIEM. Todo es práctico y se utilizan técnicas y malware del mundo real.
@@ -305,19 +305,19 @@ Este módulo de Hack The Box Academy cubre cómo crear reglas YARA tanto de form
     
     [**Introducción a los forenses digitales**](Introduccio%CC%81n%20a%20los%20forenses%20digitales%201b703ba572bc8066bff9c6ca7600ce98.md)
     
-    [**Descripción general forense de Windows**](Descripcio%CC%81n%20general%20forense%20de%20Windows%201b703ba572bc806283aec3ef2bcb8c32.md)
+    [**Descripción general forense de Windows**](Descripción%20general%20forense%20de%20Windows.md)
     
-    [**Técnicas y herramientas de adquisición de evidencia**](Te%CC%81cnicas%20y%20herramientas%20de%20adquisicio%CC%81n%20de%20eviden%201b703ba572bc80c08310df966f279208.md)
+    [**Técnicas y herramientas de adquisición de evidencia**](Técnicas%20y%20herramientas%20de%20adquisición%20de%20eviden.md)
     
     - **Evidence Examination & Analysis**
         
-        [**Forense de memoria**](Forense%20de%20memoria%201b703ba572bc8033973bd6f20b6bda4f.md)
+        [**Forense de memoria**](Forense%20de%20memoria.md)
         
-        [**Disco forense**](Disco%20forense%201b703ba572bc8099bd67e6ae39c62291.md)
+        [**Disco forense**](Disco%20forens.md)
         
-        [**Herramientas rápidas de examen y análisis**](Herramientas%20ra%CC%81pidas%20de%20examen%20y%20ana%CC%81lisis%201b703ba572bc80c18a7cc9fb000be9fc.md)
+        [**Herramientas rápidas de examen y análisis**](Herramientas%20rápidas%20de%20examen%20y%20análisis.md)
         
-        [**Escenario forense digital práctico**](Escenario%20forense%20digital%20pra%CC%81ctico%201b703ba572bc801da234db8289d57fee.md)
+        [**Escenario forense digital práctico**](Escenario%20forense%20digital%20práctico.md)
         
 
 Sumérgete en la ciencia forense digital de Windows con el módulo "Introducción a la ciencia forense digital" de Hack The Box Academy. Obtenga dominio sobre conceptos y herramientas forenses básicos como FTK Imager, KAPE, Velociraptor y Volatility. Profundice en análisis forense de memoria, análisis de imágenes de disco y procedimientos de clasificación rápida. Aprenda a construir líneas de tiempo a partir de MFT, USN Journals y registros de eventos de Windows mientras practica artefactos clave como MFT, USN Journal, Registry Hives, Prefetch Files, ShimCache, Amcache, BAM y datos SRUM.
@@ -327,51 +327,51 @@ Sumérgete en la ciencia forense digital de Windows con el módulo "Introducció
         
         [**Leveraging Windows Event Logs**](Leveraging%20Windows%20Event%20Logs%201b703ba572bc804da6cbd181260e465c.md)
         
-        [**Detectar la pulverización de contraseña**](Detectar%20la%20pulverizacio%CC%81n%20de%20contrasen%CC%83a%201b703ba572bc80bdbaefdf11c6cc836a.md)
+        [**Detectar la pulverización de contraseña**](Detectar%20la%20pulverización%20de%20contrase.md)
         
-        [**Detectar ataques con forma de respondedor**](Detectar%20ataques%20con%20forma%20de%20respondedor%201b703ba572bc80898ca8d0ee689520b3.md)
+        [**Detectar ataques con forma de respondedor**](Detectar%20ataques%20con%20forma%20de%20respondedor.md)
         
-        [**Detección de querberoasting/aspersación**](Deteccio%CC%81n%20de%20querberoasting%20aspersacio%CC%81n%201b703ba572bc80978beaea1a7e42d1cc.md)
+        [**Detección de querberoasting/aspersación**](Detección%20de%20querberoasting%20aspersación.md)
         
-        [**Detectar el paso de pase**](Detectar%20el%20paso%20de%20pase%201b703ba572bc8077a601d8dcbde03e63.md)
+        [**Detectar el paso de pase**](Detectar%20el%20paso%20de%20pa.md)
         
-        [**Detectar pasar el boleto**](Detectar%20pasar%20el%20boleto%201b703ba572bc8062acbfe5551811b0b9.md)
+        [**Detectar pasar el boleto**](Detectar%20pasar%20el%20bole.md)
         
-        [**Detección de paso elevado**](Deteccio%CC%81n%20de%20paso%20elevado%201b703ba572bc8037a7a6f86ce38ae994.md)
+        [**Detección de paso elevado**](Detección%20de%20paso%20elevado.md)
         
-        [**Detección de entradas doradas/boletos de plata**](Deteccio%CC%81n%20de%20entradas%20doradas%20boletos%20de%20plata%201b703ba572bc80eca201c551a169365e.md)
+        [**Detección de entradas doradas/boletos de plata**](Detección%20de%20entradas%20doradas%20boletos%20de%20plata.md)
         
-        [**Detección de delegación sin restricciones/ataques de delegación restringidos**](Deteccio%CC%81n%20de%20delegacio%CC%81n%20sin%20restricciones%20ataque%201b703ba572bc800e9bc5d71a0983b7d5.md)
+        [**Detección de delegación sin restricciones/ataques de delegación restringidos**](Detección%20de%20delegación%20sin%20restricciones%20ataque.md)
         
-        [**Detección de DCSYNC/DCSHADOW**](Deteccio%CC%81n%20de%20DCSYNC%20DCSHADOW%201b703ba572bc80158fd0c7928ffb164b.md)
+        [**Detección de DCSYNC/DCSHADOW**](Detección%20de%20DCSYNC%20DCSHADOW.md)
         
     - **Leveraging Splunk's Application Capabilities**
         
-        [**Creación de aplicaciones Splunk personalizadas**](Creacio%CC%81n%20de%20aplicaciones%20Splunk%20personalizadas%201b703ba572bc80a499bdf54dc22c93c4.md)
+        [**Creación de aplicaciones Splunk personalizadas**](Creación%20de%20aplicaciones%20Splunk%20personalizadas.md)
         
     - **Leveraging Zeek Logs**
         
-        [**Detección de ataques de fuerza bruta RDP**](Deteccio%CC%81n%20de%20ataques%20de%20fuerza%20bruta%20RDP%201b703ba572bc80bd81bad9ac2447d00d.md)
+        [**Detección de ataques de fuerza bruta RDP**](Detección%20de%20ataques%20de%20fuerza%20bruta%20RDP.md)
         
-        [**Detección de malware de baliza**](Deteccio%CC%81n%20de%20malware%20de%20baliza%201b703ba572bc80608a08c96325a30999.md)
+        [**Detección de malware de baliza**](Detección%20de%20malware%20de%20baliza.md)
         
-        [**Detección de escaneo de puertos NMAP**](Deteccio%CC%81n%20de%20escaneo%20de%20puertos%20NMAP%201b703ba572bc8048a49fc05a967469f5.md)
+        [**Detección de escaneo de puertos NMAP**](Detección%20de%20escaneo%20de%20puertos%20NMAP.md)
         
-        [**Detección de ataques de la fuerza bruta de Kerberos**](Deteccio%CC%81n%20de%20ataques%20de%20la%20fuerza%20bruta%20de%20Kerber%201b703ba572bc8084aa0fd18eac4158c9.md)
+        [**Detección de ataques de la fuerza bruta de Kerberos**](Detección%20de%20ataques%20de%20la%20fuerza%20bruta%20de%20Kerber.md)
         
-        [**Detección de querberoasting**](Deteccio%CC%81n%20de%20querberoasting%201b703ba572bc8040989ad646d1bf3372.md)
+        [**Detección de querberoasting**](Detección%20de%20querberoasting.md)
         
-        [**Detección de boletos dorados**](Deteccio%CC%81n%20de%20boletos%20dorados%201b703ba572bc80dfaa94d04d67ac4573.md)
+        [**Detección de boletos dorados**](Detección%20de%20boletos%20dorados.md)
         
-        [**Detectando el psexec de Cobalt Strike**](Detectando%20el%20psexec%20de%20Cobalt%20Strike%201b703ba572bc80a68c8cc35b181890a7.md)
+        [**Detectando el psexec de Cobalt Strike**](Detectando%20el%20psexec%20de%20Cobalt%20Strike.md)
         
-        [**Detección de zerologon**](Deteccio%CC%81n%20de%20zerologon%201b703ba572bc80f9a50bc3a7bcc1ea57.md)
+        [**Detección de zerologon**](Detección%20de%20zerologon.md)
         
-        [**Detección de exfiltración (HTTP)**](Deteccio%CC%81n%20de%20exfiltracio%CC%81n%20(HTTP)%201b703ba572bc80189ccdc81e4876743b.md)
+        [**Detección de exfiltración (HTTP)**](Detección%20de%20exfiltración%20(HTTP).md)
         
-        [**Detección de exfiltración (DNS)**](Deteccio%CC%81n%20de%20exfiltracio%CC%81n%20(DNS)%201b703ba572bc8084a18be76aa2e57849.md)
+        [**Detección de exfiltración (DNS)**](Detección%20de%20exfiltración%20(DNS).md)
         
-        [**Detección de ransomware**](Deteccio%CC%81n%20de%20ransomware%201b703ba572bc80b9a3accdf3328ed848.md)
+        [**Detección de ransomware**](Detección%20de%20ransomware.md)
         
 
 Este módulo de Hack The Box Academy se centra en identificar ataques en Windows y Active Directory. Utilizando Splunk como piedra angular para la investigación, esta capacitación brindará a los participantes la experiencia necesaria para identificar hábilmente las amenazas basadas en Windows aprovechando los registros de eventos de Windows y los registros de red de Zeek. Además, los participantes se beneficiarán de los archivos PCAP reales asociados con los ataques de Windows y Active Directory discutidos, mejorando su comprensión de los respectivos patrones y técnicas de ataque.

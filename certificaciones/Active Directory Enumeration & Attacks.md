@@ -4,13 +4,13 @@
 
 [Introduction to Active Directory Enumeration & Attacks](Introduction%20to%20Active%20Directory%20Enumeration%20&%20Att%201bc03ba572bc80b9af0be73f43a73312.md)
 
-[Tools Of The Trade](Tools%20Of%20The%20Trade%201bc03ba572bc8065a7eccc859bf46e8d.md)
+[Tools Of The Trade](Tools%20Of%20The%20Trade.md)
 
 [Scenario](Scenario%201bc03ba572bc809a979ec288a0cbb964.md)
 
 - **Initial Enumeration**
 
-[External Recon and Enumeration Principles](External%20Recon%20and%20Enumeration%20Principles%201bc03ba572bc80889d65d0570450219e.md)
+[External Recon and Enumeration Principles](External%20Recon%20and%20Enumeration%20Principles.md)
 
 [Initial Enumeration of the Domain](Initial%20Enumeration%20of%20the%20Domain%201bc03ba572bc80feba53cf14c34aa595.md)
 
