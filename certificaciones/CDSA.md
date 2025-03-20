@@ -138,7 +138,7 @@ A través del análisis del tráfico de red, este módulo mejora las habilidades
     - **Suricata**
 	    - [Fundamentos de Suricata](Fundamentos%20de%20Suricata.md)
 	    - [Desarrollo de reglas de Suricata Parte 1](Desarrollo%20de%20reglas%20de%20Suricata%20Parte%201.md)
-	    - [Desarrollo de reglas de Suricata Parte 2](Desarrollo%20de%20reglas%20de%20Suricata%20Parte%202%20(tra%CC%81fico%201b003ba572bc8046ab3cf86408037061.md)
+	    - [Desarrollo de reglas de Suricata Parte 2](Desarrollo%20de%20reglas%20de%20Suricata%20Parte 2.md)
     - Snort
 	    - [Snort Fundaments](Snort%20Fundaments.md)
 	    - [Desarrollo de reglas de inicio](Desarrollo%20de%20reglas%20de%20inicio.md)
