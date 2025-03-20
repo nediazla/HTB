@@ -1,16 +1,16 @@
 
 - **Incident Handling Process**
     - Introduction
-	    - [**Incident Handling**](1362.md)
-        - [**Cyber Kill Chain**](1363.md)
+	    - [**Incident Handling**](module/148/section/1362.md)
+        - [**Cyber Kill Chain**](module/148/section/1363.md)
     - **The Incident Handling Process**
-	    - [**Incident Handling Process Overview**](1364.md)
-	    - [**Preparation Stage (Part 1)**](1365.md)
-	    - [**Preparation Stage (Part 2)**](1366.md)
-	    - [**Detection & Analysis Stage (Part 1)**](1367.md)
-	    - [**Detection & Analysis Stage (Part 2)**](1368.md)
-	    - [**Containment, Eradication, & Recovery Stage**](1369.md)
-	    - [**Post-Incident Activity Stage**](1370.md)
+	    - [**Incident Handling Process Overview**](module/148/section/1364.md)
+	    - [**Preparation Stage (Part 1)**](module/148/section/1365.md)
+	    - [**Preparation Stage (Part 2)**](module/148/section/1366.md)
+	    - [**Detection & Analysis Stage (Part 1)**](module/148/section/1367.md)
+	    - [**Detection & Analysis Stage (Part 2)**](module/148/section/1368.md)
+	    - [**Containment, Eradication, & Recovery Stage**](module/148/section/1369.md)
+	    - [**Post-Incident Activity Stage**](module/148/section/1370.md)
 
 El manejo de incidentes de seguridad se ha convertido en una parte vital de la estrategia defensiva de cada organización, ya que los ataques evolucionan constantemente y los compromisos exitosos se convierten en algo cotidiano. En este módulo, revisaremos el proceso de manejo de un incidente desde la etapa inicial de detección de un evento sospechoso hasta la confirmación de un compromiso y la respuesta al mismo.
 
