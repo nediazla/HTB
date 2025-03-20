@@ -20,7 +20,7 @@ El Especialista Certificado en Pruebas de Penetración de HTB (HTB CPTS) evalúa
 - Escalada de privilegios de Windows y Linux
 - Comunicación e informes de vulnerabilidad/riesgo
 
-[CDSA](certificaciones/CDSA.md)
+[CDSA](CDSA.md)
 
 HTB Certified Defensive Security Analyst (HTB CDSA) es una certificación altamente práctica que evalúa el análisis de seguridad, las operaciones SOC y las habilidades de manejo de incidentes de los candidatos. Los titulares de la certificación HTB Certified Defensive Security Analyst (HTB CDSA) poseerán competencia técnica en los dominios de análisis de seguridad, operaciones SOC y manejo de incidentes en un nivel intermedio. Podrán detectar incidentes de seguridad e identificar vías de detección que pueden no ser inmediatamente evidentes simplemente mirando los datos/evidencias disponibles. También se destacarán en pensar fuera de lo común, correlacionar datos/evidencias dispares y girar incansablemente para determinar el impacto máximo de un incidente. Otra habilidad que aportarán es la creación de informes de incidentes de seguridad procesables y adaptados a audiencias diversas.
 
