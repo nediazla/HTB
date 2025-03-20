@@ -56,7 +56,7 @@ Inicialmente, este módulo sienta las bases para comprender la caza de amenazas,
 - **Understanding Log Sources & Investigating with Splunk**
     - **Splunk Fundamentals**
 	    - [Introduction To Splunk & SPL](Introduction%20To%20Splunk%20&%20SPL.md)
-	    - [[Using Splunk Applications](Using%20Splunk%20Applications.md)
+	    - [Using Splunk Applications](Using%20Splunk%20Applications.md)
     - **Investigating With Splunk**
 	    - [Intrusion Detection With Splunk (Real-world Scenario)](Intrusion%20Detection%20With%20Splunk%20(Real-world%20Scenar%2017b03ba572bc80ca82f2c10f52a3c89d.md)
 	    - [Detecting Attacker Behavior With Splunk Based On TTPs](Detecting%20Attacker%20Behavior%20With%20Splunk%20Based%20On%20T.md)
