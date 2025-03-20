@@ -2,17 +2,17 @@
 
 - **Incident Handling Process**
     - Introduction
-        [**Incident Handling**](Incident%20Handling.md)
-        [**Cyber Kill Chain**](Cyber%20Kill%20Chain.md)
+	    - [**Incident Handling**](Incident%20Handling.md)
+        - [**Cyber Kill Chain**](Cyber%20Kill%20Chain.md)
         
     - **The Incident Handling Process**
-        [**Incident Handling Process Overview**](Incident%20Handling%20Process%20Overview.md)
-        [**Preparation Stage (Part 1)**](Preparation%20Stage%20(Part%201).md)
-        [**Preparation Stage (Part 2)**](Preparation%20Stage%20(Part%202).md)
-        [**Detection & Analysis Stage (Part 1)**](Detection%20&%20Analysis%20Stage%20(Part%201).md)
-        [**Detection & Analysis Stage (Part 2)**](Detection%20&%20Analysis%20Stage%20(Part%202).md)
-        [**Containment, Eradication, & Recovery Stage**](Containment,%20Eradication,%20&%20Recovery%20Stage.md)
-        [**Post-Incident Activity Stage**](Post-Incident%20Activity%20Stage.md)
+	    - [**Incident Handling Process Overview**](Incident%20Handling%20Process%20Overview.md)
+	    - [**Preparation Stage (Part 1)**](Preparation%20Stage%20(Part%201).md)
+	    - [**Preparation Stage (Part 2)**](Preparation%20Stage%20(Part%202).md)
+	    - [**Detection & Analysis Stage (Part 1)**](Detection%20&%20Analysis%20Stage%20(Part%201).md)
+	    - [**Detection & Analysis Stage (Part 2)**](Detection%20&%20Analysis%20Stage%20(Part%202).md)
+	    - [**Containment, Eradication, & Recovery Stage**](Containment,%20Eradication,%20&%20Recovery%20Stage.md)
+	    - [**Post-Incident Activity Stage**](Post-Incident%20Activity%20Stage.md)
 
 El manejo de incidentes de seguridad se ha convertido en una parte vital de la estrategia defensiva de cada organización, ya que los ataques evolucionan constantemente y los compromisos exitosos se convierten en algo cotidiano. En este módulo, revisaremos el proceso de manejo de un incidente desde la etapa inicial de detección de un evento sospechoso hasta la confirmación de un compromiso y la respuesta al mismo.
 
