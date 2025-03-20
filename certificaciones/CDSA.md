@@ -2,160 +2,103 @@
 
 - **Incident Handling Process**
     - Introduction
-        
-        [**Incident Handling**](Incident%20Handling%2016703ba572bc80359f65d1b1bcb8da19.md)
-        
-        [**Cyber Kill Chain**](Cyber%20Kill%20Chain%2016703ba572bc804ea345f656c0e7a99e.md)
+        [**Incident Handling**](Incident%20Handling.md)
+        [**Cyber Kill Chain**](Cyber%20Kill%20Chain.md)
         
     - **The Incident Handling Process**
-        
-        [**Incident Handling Process Overview**](Incident%20Handling%20Process%20Overview%2016703ba572bc80f4b3ddfb492a6e95d7.md)
-        
-        [**Preparation Stage (Part 1)**](Preparation%20Stage%20(Part%201)%2016703ba572bc804b8ae0cfb09bcf940c.md)
-        
-        [**Preparation Stage (Part 2)**](Preparation%20Stage%20(Part%202)%2016703ba572bc80ad8704da9c3aa4e78d.md)
-        
-        [**Detection & Analysis Stage (Part 1)**](Detection%20&%20Analysis%20Stage%20(Part%201)%2016703ba572bc804491b7cfdd533db227.md)
-        
-        [**Detection & Analysis Stage (Part 2)**](Detection%20&%20Analysis%20Stage%20(Part%202)%2016703ba572bc80d98d3bc881f425bfef.md)
-        
-        [**Containment, Eradication, & Recovery Stage**](Containment,%20Eradication,%20&%20Recovery%20Stage%2016703ba572bc8086b8e2e2a13390aba6.md)
-        
-        [**Post-Incident Activity Stage**](Post-Incident%20Activity%20Stage%2016703ba572bc8050be75ebc897ef99e3.md)
-        
-    
+        [**Incident Handling Process Overview**](Incident%20Handling%20Process%20Overview.md)
+        [**Preparation Stage (Part 1)**](Preparation%20Stage%20(Part%201).md)
+        [**Preparation Stage (Part 2)**](Preparation%20Stage%20(Part%202).md)
+        [**Detection & Analysis Stage (Part 1)**](Detection%20&%20Analysis%20Stage%20(Part%201).md)
+        [**Detection & Analysis Stage (Part 2)**](Detection%20&%20Analysis%20Stage%20(Part%202).md)
+        [**Containment, Eradication, & Recovery Stage**](Containment,%20Eradication,%20&%20Recovery%20Stage.md)
+        [**Post-Incident Activity Stage**](Post-Incident%20Activity%20Stage.md)
 
 El manejo de incidentes de seguridad se ha convertido en una parte vital de la estrategia defensiva de cada organización, ya que los ataques evolucionan constantemente y los compromisos exitosos se convierten en algo cotidiano. En este módulo, revisaremos el proceso de manejo de un incidente desde la etapa inicial de detección de un evento sospechoso hasta la confirmación de un compromiso y la respuesta al mismo.
 
 - **Security Monitoring & SIEM Fundamentals**
     - **SIEM & SOC Fundamentals**
-        
-        [**SIEM Definition & Fundamentals**](SIEM%20Definition%20&%20Fundamentals%2016803ba572bc809ebcb6e74f59dfd9d5.md)
-        
-        [**Introduction To The Elastic Stack**](Introduction%20To%20The%20Elastic%20Stack%2016803ba572bc808a83accca7b6ae4bcd.md)
-        
-        [**SOC Definition & Fundamentals**](SOC%20Definition%20&%20Fundamentals%2016803ba572bc80e8a0e3e0e93c7e0b56.md)
-        
-        [**MITRE ATT&CK & Security Operations**](MITRE%20ATT&CK%20&%20Security%20Operations%2016803ba572bc805abb12e76e0b08cbbb.md)
-        
-        [**SIEM Use Case Development**](SIEM%20Use%20Case%20Development%2016803ba572bc807c8705e8dc788d1a69.md)
+        [**SIEM Definition & Fundamentals**](SIEM%20Definition%20&%20Fundamentals.md)
+        [**Introduction To The Elastic Stack**](Introduction%20To%20The%20Elastic%20Stack.md)
+        [**SOC Definition & Fundamentals**](SOC%20Definition%20&%20Fundamentals.md)
+        [**MITRE ATT&CK & Security Operations**](MITRE%20ATT&CK%20&%20Security%20Operations.md)
+        [**SIEM Use Case Development**](SIEM%20Use%20Case%20Development.md)
         
     - **SIEM Visualization Development**
-        
-        [**SIEM Visualization Example 1: Failed Logon Attempts (All Users)**](SIEM%20Visualization%20Example%201%20Failed%20Logon%20Attempts%2016803ba572bc80d384d7e9ab6a2d623f.md)
-        
-        [**SIEM Visualization Example 2: Failed Logon Attempts (Disabled Users)**](SIEM%20Visualization%20Example%202%20Failed%20Logon%20Attempts%2016803ba572bc803693d5cc5037c018e6.md)
-        
-        [**SIEM Visualization Example 3: Successful RDP Logon Related To Service Accounts**](SIEM%20Visualization%20Example%203%20Successful%20RDP%20Logon%20%2016803ba572bc80a5a669f06f747f9483.md)
-        
-        [**SIEM Visualization Example 4: Users Added Or Removed From A Local Group (Within A Specific Timeframe)**](SIEM%20Visualization%20Example%204%20Users%20Added%20Or%20Remove%2016803ba572bc80b4acd2f13e3660d006.md)
+        [**SIEM Visualization Example 1: Failed Logon Attempts (All Users)**](SIEM%20Visualization%20Example%201%20Failed%20Logon%20Attempts.md)
+        [**SIEM Visualization Example 2: Failed Logon Attempts (Disabled Users)**](SIEM%20Visualization%20Example%202%20Failed%20Logon%20Attempts.md)
+        [**SIEM Visualization Example 3: Successful RDP Logon Related To Service Accounts**](SIEM%20Visualization%20Example%203%20Successful%20RDP%20Logon.md)
+        [**SIEM Visualization Example 4: Users Added Or Removed From A Local Group (Within A Specific Timeframe)**](SIEM%20Visualization%20Example%204%20Users%20Added%20Or%20Remove.md)
         
     - **Clasificación de alertas**
-        
-        [**The Triaging Process**](The%20Triaging%20Process%2016803ba572bc809ca318c38a7cc55faf.md)
-        
+        [**The Triaging Process**](The%20Triaging%20Process.md)
 
 Este módulo proporciona una descripción general concisa pero completa de la gestión de eventos e información de seguridad (SIEM) y el Elastic Stack. Desmitifica el funcionamiento esencial de un Centro de operaciones de seguridad (SOC), explora la aplicación del marco MITRE ATT&CK dentro de los SOC e introduce el desarrollo de consultas SIEM (KQL). Con un enfoque en habilidades prácticas, los estudiantes aprenderán cómo desarrollar visualizaciones y casos de uso de SIEM utilizando Elastic Stack.
 
 - **Windows Event Logs & Finding Evil**
     - Introduccion
-        
-        [**Windows Event Logs**](Windows%20Event%20Logs%2017003ba572bc8036bb38f7339f364cd6.md)
-        
-        [**Analyzing Evil With Sysmon & Event Logs**](Analyzing%20Evil%20With%20Sysmon%20&%20Event%20Logs%2017003ba572bc80c2a977ce413a440158.md)
+        [**Windows Event Logs**](Windows%20Event%20Logs.md)
+        [**Analyzing Evil With Sysmon & Event Logs**](Analyzing%20Evil%20With%20Sysmon%20&%20Event%20Logs.md)
         
     - **Additional Telemetry Sources**
-        
-        [**Event Tracing for Windows (ETW)**](Event%20Tracing%20for%20Windows%20(ETW)%2017303ba572bc8053ad3fef0f04b6d63d.md)
-        
-        [**Tapping Into ETW**](Tapping%20Into%20ETW%2017403ba572bc804ea48df909ae848f72.md)
+        [**Event Tracing for Windows (ETW)**](Event%20Tracing%20for%20Windows%20(ETW).md)
+        [**Tapping Into ETW**](Tapping%20Into%20ETW.md)
         
     - **Analyzing Windows Event Logs En Masse**
-        
-        [**Get-WinEvent**](Get-WinEvent%2017503ba572bc80dfb2b0cd4830327a99.md)
-        
+        [**Get-WinEvent**](HTB/certificaciones/Get-WinEvent.md)
 
 Este módulo cubre la exploración de los registros de eventos de Windows y su importancia para descubrir actividades sospechosas. A lo largo del curso, profundizamos en la anatomía de los registros de eventos de Windows y destacamos los registros que contienen la información más valiosa para las investigaciones. El módulo también se centra en la utilización de Sysmon y registros de eventos para detectar y analizar comportamientos maliciosos. Además, profundizamos en el seguimiento de eventos para Windows (ETW), explicamos su arquitectura y componentes, y proporcionamos ejemplos de detección basados en ETW. Para agilizar el proceso de análisis, presentamos el potente cmdlet Get-WinEvent.
 
 - **Introduction to Threat Hunting & Hunting With Elastic**
     - **Threat Hunting & Threat Intelligence Fundamentals**
-        
-        [**Threat Hunting Definition**](Threat%20Hunting%20Definition%2017603ba572bc8005a749fbc2f72ec0c5.md)
-        
-        [**The Threat Hunting Process**](The%20Threat%20Hunting%20Process%2017703ba572bc80f88005c52041cff557.md)
-        
-        [**Threat Hunting Glossary**](Threat%20Hunting%20Glossary%2017703ba572bc80eaace0cdd74abd80ca.md)
-        
-        [**Threat Intelligence Fundamentals**](Threat%20Intelligence%20Fundamentals%2017703ba572bc80aea14af995b970979d.md)
+        [**Threat Hunting Definition**](Threat%20Hunting%20Definition.md)
+        [**The Threat Hunting Process**](The%20Threat%20Hunting%20Process.md)
+        [**Threat Hunting Glossary**](Threat%20Hunting%20Glossary.md)
+        [**Threat Intelligence Fundamentals**](Threat%20Intelligence%20Fundamentals.md)
         
     - **Threat Hunting With The Elastic Stack**
-        
-        [**Hunting For Stuxbot**](Hunting%20For%20Stuxbot%2017703ba572bc8088836defd604331397.md)
-        
+        [**Hunting For Stuxbot**](Hunting%20For%20Stuxbot.md)
 
 Inicialmente, este módulo sienta las bases para comprender la caza de amenazas, desde su definición básica hasta la estructura de un equipo de caza de amenazas. El módulo también profundiza en el proceso de búsqueda de amenazas, destacando las interrelaciones entre la búsqueda de amenazas, la evaluación de riesgos y el manejo de incidentes. Además, el módulo aclara los fundamentos de Cyber Threat Intelligence (CTI). Amplía los diferentes tipos de inteligencia sobre amenazas y ofrece orientación sobre cómo interpretar eficazmente un informe de inteligencia sobre amenazas. Finalmente, el módulo pone la teoría en práctica y muestra cómo realizar una búsqueda de amenazas utilizando la pila Elastic. Este segmento práctico utiliza registros del mundo real para brindar a los alumnos una experiencia práctica.
 
 - **Understanding Log Sources & Investigating with Splunk**
     - **Splunk Fundamentals**
-        
-        [Introduction To Splunk & SPL](Introduction%20To%20Splunk%20&%20SPL%2017b03ba572bc80b5995edb3047985b39.md)
-        
-        [[Using Splunk Applications](https://academy.hackthebox.com/module/218/section/2389)](Using%20Splunk%20Applications%2017b03ba572bc80d29c2ffe633c6e2266.md)
+        [Introduction To Splunk & SPL](Introduction%20To%20Splunk%20&%20SPL.md)
+        [[Using Splunk Applications](Using%20Splunk%20Applications.md)
         
     - **Investigating With Splunk**
-        
         [Intrusion Detection With Splunk (Real-world Scenario)](Intrusion%20Detection%20With%20Splunk%20(Real-world%20Scenar%2017b03ba572bc80ca82f2c10f52a3c89d.md)
-        
-        [Detecting Attacker Behavior With Splunk Based On TTPs](Detecting%20Attacker%20Behavior%20With%20Splunk%20Based%20On%20T%2017b03ba572bc8034980ecafdc1cafe83.md)
-        
-        [Detecting Attacker Behavior With Splunk Based On Analytics](Detecting%20Attacker%20Behavior%20With%20Splunk%20Based%20On%20A%2017b03ba572bc80dca90febbb09d3b43e.md)
-        
-    
+        [Detecting Attacker Behavior With Splunk Based On TTPs](Detecting%20Attacker%20Behavior%20With%20Splunk%20Based%20On%20T.md)
+        [Detecting Attacker Behavior With Splunk Based On Analytics](Detecting%20Attacker%20Behavior%20With%20Splunk%20Based%20On%20A.md)
 
 Este módulo proporciona una introducción completa a Splunk, centrándose en su arquitectura y la creación de búsquedas SPL (lenguaje de procesamiento de búsqueda) relacionadas con la detección efectivas. Aprenderemos a investigar con Splunk como herramienta SIEM y desarrollaremos búsquedas de SPL basadas en TTP y análisis para mejorar la detección y respuesta a amenazas. A través de ejercicios prácticos, aprenderemos a identificar y comprender los datos ingeridos y los campos disponibles dentro de Splunk. También obtendremos experiencia práctica en el aprovechamiento de las poderosas funciones de Splunk para el monitoreo de seguridad y la investigación de incidentes.
 
 - **Windows Attacks & Defense**
     - **Setting the stage**
-        
-        [Introduction and Terminology](Introduction%20and%20Terminology%2018e03ba572bc800eb147ddea246aa06a.md)
-        
-        [Overview and Lab Environment](Overview%20and%20Lab%20Environment%2018e03ba572bc8027ac95eed37ea83bbf.md)
+        [Introduction and Terminology](Introduction%20and%20Terminology.md)
+        [Overview and Lab Environment](Overview%20and%20Lab%20Environment.md)
         
     - **Attacks & Defense**
-        
-        [Kerberoasting](Kerberoasting%2018e03ba572bc801693b6f9549983d1d4.md)
-        
-        [AS-REProasting](AS-REProasting%2018e03ba572bc80cba21aec2ce5ed49a9.md)
-        
-        [GPP Passwords](GPP%20Passwords%2018e03ba572bc8098bf57c48697d1ede3.md)
-        
-        [GPO Permissions/GPO Files](GPO%20Permissions%20GPO%20Files%2018e03ba572bc8037b32de604b9a50787.md)
-        
-        [Credentials in Shares](Credentials%20in%20Shares%2018e03ba572bc80c8afe6c5f6f6d0f65a.md)
-        
+        [Kerberoasting](HTB/certificaciones/Kerberoasting.md)
+        [AS-REProasting](HTB/certificaciones/AS-REProasting.md)
+        [GPP Passwords](GPP%20Passwords.md)
+        [GPO Permissions/GPO Files](GPO%20Permissions%20GPO%20Files.md)
+        [Credentials in Shares](Credentials%20in%20Shares.md)
         [Credentials in Object Properties](Credentials%20in%20Object%20Properties%2018e03ba572bc807d86a5ef9ce307f1dc.md)
-        
-        [DCSync](DCSync%2018e03ba572bc80b4adf5d6f4da02f3a4.md)
-        
-        [Golden Ticket](Golden%20Ticket%2018e03ba572bc800eba7df25510e881c0.md)
-        
-        [Kerberos Constrained Delegation](Kerberos%20Constrained%20Delegation%2018e03ba572bc8045a24ce2ff817a7811.md)
-        
-        [Print Spooler & NTLM Relaying](Print%20Spooler%20&%20NTLM%20Relaying%2018e03ba572bc80ba8b61c3ac33ad1f6a.md)
-        
-        [Coercing Attacks & Unconstrained Delegation](Coercing%20Attacks%20&%20Unconstrained%20Delegation%2018e03ba572bc803087f1ca14302c845c.md)
-        
-        [Object ACLs](Object%20ACLs%2018e03ba572bc805e92c4f8eb110cbada.md)
-        
-        [PKI - ESC1](PKI%20-%20ESC1%2018e03ba572bc803c9480f34c1e4bc95e.md)
-        
+        [DCSync](HTB/certificaciones/DCSync.md)
+        [Golden Ticket](HTB/certificaciones/Golden%20Ticket.md)
+        [Kerberos Constrained Delegation](HTB/certificaciones/Kerberos%20Constrained%20Delegation.md)
+        [Print Spooler & NTLM Relaying](Print%20Spooler%20&%20NTLM%20Relaying.md)
+        [Coercing Attacks & Unconstrained Delegation](Coercing%20Attacks%20&%20Unconstrained%20Delegation.md)
+        [Object ACLs](Object%20ACLs.md)
+        [PKI - ESC1](PKI%20-%20ESC1.md)
 
 Microsoft Active Directory (AD) ha sido, durante los últimos 20 años, la suite de gestión de dominios empresariales líder, que proporciona gestión de identidades y acceso, administración centralizada de dominios, autenticación y mucho más. A lo largo de esos años, cuanto más integradas se han vuelto nuestras aplicaciones y datos con AD, más expuestos estamos a un compromiso a gran escala. En este módulo, analizaremos los ataques más comúnmente abusados y fructíferos contra entornos de Active Directory que permiten a los actores de amenazas realizar escaladas de privilegios horizontales y verticales, además del movimiento lateral. Uno de los objetivos principales del módulo es mostrar métodos de prevención y detección contra los ataques cubiertos de Active Directory.
 
 - **Intro to Network Traffic Analysis**
     - **Introducción**
         
-        [Análisis de tráfico de red](Ana%CC%81lisis%20de%20tra%CC%81fico%20de%20red%2018e03ba572bc8026b83bf248eb7206d8.md)
+        [Análisis de tráfico de red](Análisis%20de%20tráfico%20de%20red.md)
         
         [Primer de redes - Capas 1-4](Primer%20de%20redes%20-%20Capas%201-4%2018e03ba572bc8053a7c8c4d0b1c22c89.md)
         
@@ -165,13 +108,13 @@ Microsoft Active Directory (AD) ha sido, durante los últimos 20 años, la suite
         
         [El proceso de análisis](El%20proceso%20de%20ana%CC%81lisis%2018e03ba572bc8087b5d9fceb619f682a.md)
         
-        [Análisis en la práctica](Ana%CC%81lisis%20en%20la%20pra%CC%81ctica%2018e03ba572bc80a586b1f56a35020194.md)
+        [Análisis en la práctica](Análisis%20en%20la%20práctica.md)
         
     - **Tcpdump**
         
         [Fundamentos tcpdump](Fundamentos%20tcpdump%2018e03ba572bc8070b32fc75a0023c2cb.md)
         
-        [Capturar con TCPDUMP (Fundamentals Labs)](Capturar%20con%20TCPDUMP%20(Fundamentals%20Labs)%2018e03ba572bc800c8faff281e13fa91f.md)
+        [Capturar con TCPDUMP (Fundamentals Labs)](Capturar%20con%20TCPDUMP%20(Fundamentals%20Labs).md)
         
         [Filtrado de paquetes tcpdump](Filtrado%20de%20paquetes%20tcpdump%2018e03ba572bc8090a0c2f926b5b7f544.md)
         
@@ -179,7 +122,7 @@ Microsoft Active Directory (AD) ha sido, durante los últimos 20 años, la suite
         
     - **Wireshark**
         
-        [Análisis con Wireshark](Ana%CC%81lisis%20con%20Wireshark%2018e03ba572bc8079b916f94e3af3c2c9.md)
+        [Análisis con Wireshark](Análisis%20con%20Wireshark.md)
         
         [Familiaridad con Wireshark](Familiaridad%20con%20Wireshark%2018e03ba572bc8061ac13ff701f25a8e2.md)
         
@@ -202,9 +145,9 @@ Los equipos de seguridad utilizan el análisis del tráfico de red para monitore
         
     - **Link Layer Attacks**
         
-        [ARP Spoofing & Abnormality Detection](ARP%20Spoofing%20&%20Abnormality%20Detection%201a603ba572bc80c78da6d5d21ebe248e.md)
+        [ARP Spoofing & Abnormality Detection](HTB/certificaciones/ARP%20Spoofing%20&%20Abnormality%20Detection.md)
         
-        [ARP Scanning & Denial-of-Service](ARP%20Scanning%20&%20Denial-of-Service%201a603ba572bc80cba941c2bb0d3e9e41.md)
+        [ARP Scanning & Denial-of-Service](HTB/certificaciones/ARP%20Scanning%20&%20Denial-of-Service.md)
         
         [802.11 Denial-of-Service](802%2011%20Denial-of-Service%201a603ba572bc80f2b003eb4df924e046.md)
         
@@ -279,16 +222,16 @@ Este módulo ofrece una exploración en profundidad de Suricata, Snort y Zeek, c
         
     - **Static Analysis**
         
-        [**Análisis estático en Linux**](Ana%CC%81lisis%20esta%CC%81tico%20en%20Linux%201b703ba572bc803c8a7dc1b8a6ba6b01.md)
+        [**Análisis estático en Linux**](Análisis%20estático%20en%20Linux.md)
         
-        [**Análisis estático en Windows**](Ana%CC%81lisis%20esta%CC%81tico%20en%20Windows%201b703ba572bc8062a2bdf8d2c9cb1ec3.md)
+        [**Análisis estático en Windows**](Análisis%20estático%20en%20Windows.md)
         
     
     [**Dynamic Analysis**](Dynamic%20Analysis%201b703ba572bc80e1b5accc4a348aa55c.md)
     
     - **Code Analysis**
         
-        [**Análisis de código**](Ana%CC%81lisis%20de%20co%CC%81digo%201b703ba572bc80819ee7d613ee2d50ba.md)
+        [**Análisis de código**](Análisis%20de%20código.md)
         
         [**Debugging**](Debugging%201b703ba572bc808ea406db5a37f18083.md)
         
@@ -309,9 +252,9 @@ Este módulo ofrece una exploración del análisis de malware, específicamente 
         
         [**Code Obfuscation**](Code%20Obfuscation%2016803ba572bc80149570d8a0771acbfc.md)
         
-        [**Basic Obfuscation**](Basic%20Obfuscation%2016803ba572bc80dbb63bf2260bb9dc62.md)
+        [**Basic Obfuscation**](Basic%20Obfuscation.md)
         
-        [**Advanced Obfuscation**](Advanced%20Obfuscation%2016803ba572bc806f9bdcf484abe3eabb.md)
+        [**Advanced Obfuscation**](Advanced%20Obfuscation.md)
         
         [**Deobfuscation**](Deobfuscation%2016803ba572bc804fbc7fcaceedc7bfbc.md)
         
@@ -351,7 +294,7 @@ Este módulo lo llevará paso a paso a través de los fundamentos de la desofusc
         
         [**Desarrollo de reglas de Sigma**](Desarrollo%20de%20reglas%20de%20Sigma%201b703ba572bc80afa579d177f130b409.md)
         
-        [**Caza del mal con Sigma (edición de motosierra)**](Caza%20del%20mal%20con%20Sigma%20(edicio%CC%81n%20de%20motosierra)%201b703ba572bc8097b97fc7f9c3c6e094.md)
+        [**Caza del mal con Sigma (edición de motosierra)**](Caza%20del%20mal%20con%20Sigma%20(edición%20de%20motosierra).md)
         
         [**Hunting Evil con Sigma (edición Splunk)**](Hunting%20Evil%20con%20Sigma%20(edicio%CC%81n%20Splunk)%201b703ba572bc808db4b9c0ffcc4964f4.md)
         
@@ -434,16 +377,10 @@ Sumérgete en la ciencia forense digital de Windows con el módulo "Introducció
 Este módulo de Hack The Box Academy se centra en identificar ataques en Windows y Active Directory. Utilizando Splunk como piedra angular para la investigación, esta capacitación brindará a los participantes la experiencia necesaria para identificar hábilmente las amenazas basadas en Windows aprovechando los registros de eventos de Windows y los registros de red de Zeek. Además, los participantes se beneficiarán de los archivos PCAP reales asociados con los ataques de Windows y Active Directory discutidos, mejorando su comprensión de los respectivos patrones y técnicas de ataque.
 
 - **Security Incident Reporting**
-    
-    [**Introducción al informe de incidentes de seguridad**](Introduccio%CC%81n%20al%20informe%20de%20incidentes%20de%20segurida%201b703ba572bc80e2a152e5579c594d6b.md)
-    
-    [**El proceso de informes de incidentes**](El%20proceso%20de%20informes%20de%20incidentes%201b703ba572bc80ccbe63c09112b0aa1d.md)
-    
-    [**Elementos de un informe incidente adecuado**](Elementos%20de%20un%20informe%20incidente%20adecuado%201b703ba572bc8015b86fddee5c8d68ac.md)
-    
-    [**Comunicación**](Comunicacio%CC%81n%201b703ba572bc80adbb31cc625993bfb3.md)
-    
-    [**Informe de incidentes del mundo real**](Informe%20de%20incidentes%20del%20mundo%20real%201b703ba572bc80d19b3afa7d40770bcb.md)
-    
+    [**Introducción al informe de incidentes de seguridad**](Introducción%20al%20informe%20de%20incidentes%20de%20seguridad.md)
+    [**El proceso de informes de incidentes**](El%20proceso%20de%20informes%20de%20incidentes.md)
+    [**Elementos de un informe incidente adecuado**](Elementos%20de%20un%20informe%20incidente%20adecuado.md)
+    [**Comunicación**](Comunicación.md)
+    [**Informe de incidentes del mundo real**](Informe%20de%20incidentes%20del%20mundo%20real.md)
 
 Diseñado para brindar una comprensión integral, este módulo de Hack The Box Academy garantiza que los participantes sean expertos en identificar, categorizar y documentar incidentes de seguridad con la máxima precisión y profesionalismo. El módulo desglosa meticulosamente los elementos de un informe de incidente sólido y luego presenta a los participantes un informe de incidente del mundo real, ofreciendo información práctica sobre la aplicación de los conceptos discutidos.

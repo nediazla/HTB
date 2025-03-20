@@ -1,0 +1,115 @@
+# Overview and Lab Environment
+
+En este módulo, nos sumergiremos profundamente en varios ataques diferentes. El objetivo para cada ataque es:
+
+1. Describirlo.
+2. Proporcione un tutorial de cómo podemos llevar a cabo el ataque.
+3. Proporcionar técnicas preventivas y controles de compensación.
+4. Discutir las capacidades de detección.
+5. Discuta el enfoque de 'honeypot' de detectar el ataque, si corresponde.
+
+La siguiente es una lista completa de todos los ataques descritos en este módulo:
+
+- `Kerberoasting`
+- `AS-REProasting`
+- `GPP Passwords`
+- `Misconfigured GPO Permissions (or GPO-deployed files)`
+- `Credentials in Network Shares`
+- `Credentials in User Attributes`
+- `DCSync`
+- `Kerberos Golden Ticket`
+- `Kerberos Constrained Delegation attack`
+- `Print Spooler & NTLM Relaying`
+- `Coercing attacks & Kerberos Unconstrained Delegation`
+- `Object ACLs`
+- `PKI Misconfigurations` - `ESC1`
+- `PKI Misconfigurations` - `ESC8` (`Coercing` + `Certificates`)
+
+---
+
+# **Ambiente de laboratorio**
+
+Como parte de este módulo, también proporcionamos un entorno de juegos donde puede probar y hacer un seguimiento con los tutoriales proporcionados para llevar a cabo estos ataques usted mismo. Tenga en cuenta que el propósito de los tutoriales es demostrar el problema y no describir los ataques en profundidad. Además, otros módulos en la plataforma ya están cubriendo estos ataques de manera muy detallada.
+
+Los ataques se ejecutarán desde las máquinas Windows 10 (WS001) y Kali Linux proporcionadas. La suposición es que un atacante ya ha obtenido la ejecución de código remoto (de algún tipo) en esa máquina Windows 10 (WS001). El usuario, que suponemos que está comprometido, es `Bob`, un usuario regular en Active Directory sin permisos especiales asignados.
+
+El entorno consiste en las siguientes máquinas y sus direcciones IP correspondientes:
+
+- `DC1`: `172.16.18.3`
+- `DC2`: `172.16.18.4`
+- `Server01`: `172.16.18.10`
+- `PKI`: `172.16.18.15`
+- `WS001`: `DHCP or 172.16.18.25`(dependiendo de la sección)
+- `Kali Linux`: `DHCP or 172.16.18.20` (dependiendo de la sección)
+
+---
+
+# **Conectarse al entorno de laboratorio**
+
+La mayoría de los anfitriones mencionados anteriormente son vulnerables a varios ataques y viven en una red aislada a la que se puede acceder a través de la VPN. Mientras esté en la VPN, un estudiante puede acceder directamente a las máquinas WS001 y/o Kali (dependiendo de la sección), que, como ya se mencionó, actuará como un punto de apoyo inicial y los dispositivos de atacantes a lo largo de los escenarios.
+
+A continuación, puede encontrar orientación (de un host de Linux):
+
+- Cómo conectarse a la caja de Windows WS001
+- Cómo conectarse a la caja Kali
+- Cómo transferir archivos entre WS001 y su máquina de ataque de Linux
+
+---
+
+# **Conéctese a WS001 a través de RDP**
+
+Una vez conectado a la VPN, puede acceder a la máquina Windows a través de RDP. La mayoría de los sabores de Linux vienen con un software de cliente, 'XFreerDP', que es una opción para realizar esta conexión RDP. Para acceder a la máquina, utilizaremos el Bob de la cuenta de usuario cuya contraseña es 'Slavi123'. Para realizar la conexión, ejecute el siguiente comando:
+
+Descripción general
+
+```
+xnoxos@htb[/htb]$ xfreerdp /u:eagle\\bob /p:Slavi123 /v:TARGET_IP /dynamic-resolution
+```
+
+![](https://academy.hackthebox.com/storage/modules/176/Lab/RDPWindows.png)
+
+Si la conexión es exitosa, aparecerá una nueva ventana con el escritorio de WS001 en su pantalla, como se muestra a continuación:
+
+![](https://academy.hackthebox.com/storage/modules/176/Lab/RDPWindows2.png)
+
+---
+
+# **Conéctese a Kali a través de SSH**
+
+Una vez conectados a la VPN, podemos acceder a la máquina Kali a través de SSH. Las credenciales de la máquina son el 'kali/kali' predeterminado. Para conectarse, use el siguiente comando:
+
+Descripción general
+
+```
+xnoxos@htb[/htb]$ ssh kali@TARGET_IP
+```
+
+![](https://academy.hackthebox.com/storage/modules/176/Lab/SSHKali.png)
+
+**`Note:`**También hemos habilitado RDP en el host Kali. Para las secciones con el host Kali como objetivo principal, se recomienda conectarse con RDP. Se proporcionarán credenciales de conexión para cada pregunta de desafío.
+
+Descripción general
+
+```
+xnoxos@htb[/htb]$ xfreerdp /v:TARGET_IP /u:kali /p:kali /dynamic-resolution
+```
+
+---
+
+# **Mover archivos entre WS001 y su máquina de ataque de Linux**
+
+Para facilitar la transferencia de archivos fácil entre las máquinas, hemos creado una carpeta compartida en WS001, a la que se puede acceder a través de SMB.
+
+![](https://academy.hackthebox.com/storage/modules/176/Lab/share1.png)
+
+Para acceder a la carpeta desde la máquina Kali, puede usar el comando 'SMBClient'. Acceder a la carpeta requiere autenticación, por lo que deberá proporcionar credenciales. El comando se puede ejecutar con la cuenta de administrador de la siguiente manera:
+
+Descripción general
+
+```
+xnoxos@htb[/htb]$ smbclient \\\\TARGET_IP\\Share -U eagle/administrator%Slavi123
+```
+
+![](https://academy.hackthebox.com/storage/modules/176/Lab/share2.png)
+
+Una vez conectado, puede utilizar los comandos `put` o `get` para cargar o descargar archivos, respectivamente.

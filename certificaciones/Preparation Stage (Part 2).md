@@ -1,0 +1,75 @@
+# Preparation Stage (Part 2)
+
+Otra parte del `preparation` etapa es proteger contra incidentes. Si bien la protección no es necesariamente responsabilidad de un equipo de manejo de incidentes, deben conocer cualquier actividad relacionada con la protección para comprender mejor el tipo y la sofisticación de un incidente y saber dónde buscar artefactos/evidencias que podrían ayudar en la investigación.
+
+Veamos ahora algunas de las medidas de protección más recomendadas, que tienen un alto impacto de mitigación contra la mayoría de las amenazas.
+
+---
+
+# **DMARC**
+
+[DMARC](https://dmarcly.com/blog/how-to-implement-dmarc-dkim-spf-to-stop-email-spoofing-phishing-the-definitive-guide#what-is-dmarc) es una protección de correo electrónico contra el phishing construida sobre la ya existente [FPS](https://dmarcly.com/blog/how-to-implement-dmarc-dkim-spf-to-stop-email-spoofing-phishing-the-definitive-guide#what-is-spf) y [DKIM](https://dmarcly.com/blog/how-to-implement-dmarc-dkim-spf-to-stop-email-spoofing-phishing-the-definitive-guide#what-is-dkim). La idea detrás de DMARC es rechazar los correos electrónicos que "pretenden" provenir de su organización. Por lo tanto, si un adversario falsifica un correo electrónico haciéndose pasar por un empleado que solicita el pago de una factura, el sistema rechazará el correo electrónico antes de que llegue al destinatario previsto. DMARC es fácil y económico de implementar; sin embargo, no puedo enfatizar lo suficiente que las pruebas exhaustivas son obligatorias; de lo contrario (y este suele ser el caso), corre el riesgo de bloquear correos electrónicos legítimos sin posibilidad de recuperarlos.
+
+Con las reglas de filtrado de correo electrónico, es posible que pueda llevar DMARC al "siguiente" nivel y aplicar protección adicional contra correos electrónicos que no cumplan con DMARC desde dominios que no son de su propiedad. Esto es posible porque algunos sistemas de correo electrónico realizan una verificación DMARC e incluyen un encabezado que indica si DMARC pasó o falló en los encabezados de los mensajes. Si bien esto puede ser increíblemente poderoso para detectar correos electrónicos de phishing desde cualquier dominio, requiere pruebas exhaustivas antes de poder introducirlo en un entorno de producción. Los altos falsos positivos aquí son correos electrónicos que se envían "en nombre de" a través de algún servicio de envío de correo electrónico, ya que tienden a fallar en DMARC debido a una falta de coincidencia de dominio.
+
+---
+
+# **Endurecimiento de endpoints (y EDR)**
+
+Los dispositivos finales (estaciones de trabajo, portátiles, etc.) son los puntos de entrada para la mayoría de los ataques a los que nos enfrentamos a diario. Si consideramos el hecho de que la mayoría de las amenazas se originarán en Internet y se dirigirán a usuarios que navegan por sitios web, abren archivos adjuntos o ejecutan ejecutables maliciosos, un porcentaje de esta actividad se producirá desde sus terminales corporativos.
+
+Actualmente existen algunos estándares de refuerzo de endpoints ampliamente reconocidos, siendo los más populares las líneas base de CIS y Microsoft, y estos deberían ser realmente los pilares de las líneas base de refuerzo de su organización. Algunas acciones muy importantes (que realmente funcionan) que se deben tener en cuenta y al respecto son:
+
+- Deshabilitar LLMNR/NetBIOS
+- Implementar LAPS y eliminar privilegios administrativos de los usuarios habituales
+- Deshabilite o configure PowerShell en modo "ConstrainedLanguage"
+- Habilite las reglas de reducción de la superficie de ataque (ASR) si usa Microsoft Defender
+- Implementar listas blancas. Sabemos que esto es casi imposible de implementar. Considere al menos bloquear la ejecución desde carpetas en las que el usuario puede escribir (Descargas, Escritorio, AppData, etc.). Estas son las ubicaciones donde se encontrarán inicialmente los exploits y las cargas útiles maliciosas. Recuerde bloquear también tipos de scripts como .hta, .vbs, .cmd, .bat, .js y similares. Por favor preste atención a[LOLBin](https://lolbas-project.github.io/) archivos al implementar la lista blanca. No los pases por alto; En realidad, se utilizan en la naturaleza como acceso inicial para evitar las listas blancas.
+- Utilice firewalls basados ​​en host. Como mínimo, bloquee la comunicación entre estaciones de trabajo y bloquee el tráfico saliente a LOLBins
+- Implementar un producto EDR. En este momento, [AARMI](https://learn.microsoft.com/en-us/windows/win32/amsi/how-amsi-helps) proporciona una gran visibilidad de los scripts ofuscados para que los productos antimalware inspeccionen el contenido antes de ejecutarlo. Se recomienda encarecidamente que solo elija productos que se integren con AMSI.
+
+Cuando se trata de endurecer,`Don't let perfect be the enemy of good`.
+
+---
+
+# **Protección de red**
+
+La segmentación de la red es una técnica poderosa para evitar que una infracción se extienda por toda la organización. Los sistemas críticos para el negocio deben estar aislados y las conexiones deben permitirse solo cuando el negocio lo requiera. Los recursos internos realmente no deberían estar orientados directamente a Internet (a menos que estén ubicados en una DMZ).
+
+Además, cuando se habla de protección de red se deben considerar los sistemas IDS/IPS. Su poder realmente brilla cuando se realiza la interceptación SSL/TLS para que puedan identificar el tráfico malicioso basándose en el contenido del cable y no en la reputación de las direcciones IP, que es una forma tradicional y muy ineficiente de detectar tráfico malicioso.
+
+Además, asegúrese de que solo los dispositivos aprobados por la organización puedan acceder a la red. Se pueden utilizar soluciones como 802.1x para reducir el riesgo de traer su propio dispositivo (BYOD) o de dispositivos maliciosos que se conecten a la red corporativa. Si es una empresa que solo utiliza la nube y utiliza, por ejemplo, Azure/Azure AD, puede lograr una protección similar con políticas de acceso condicional que permitirán el acceso a los recursos de la organización solo si se conecta desde un dispositivo administrado por la empresa.
+
+---
+
+# **Gestión de identidades de privilegios / MFA / Contraseñas**
+
+En este momento, el robo de credenciales de usuarios privilegiados es la ruta de escalada más común en entornos de Active Directory. Además, un error común es que los usuarios administradores tengan una contraseña débil (pero a menudo compleja) o una contraseña compartida con su cuenta de usuario habitual (que se puede obtener mediante múltiples vectores de ataque, como el registro de teclas). Como referencia, una contraseña débil pero compleja es "Contraseña1!". Incluye mayúsculas, minúsculas, números y caracteres especiales, pero a pesar de ello, es fácilmente predecible y se puede encontrar en muchas listas de contraseñas que los adversarios emplean en sus ataques. Se recomienda enseñar a los empleados a utilizar frases de contraseña porque son más difíciles de adivinar y difíciles de utilizar con fuerza bruta. Un ejemplo de una frase de contraseña que es fácil de recordar pero larga y compleja es "me gusta mi café caliente". Si uno conoce un segundo idioma, puede mezclar palabras de varios idiomas para obtener protección adicional.
+
+La autenticación multifactor (MFA) es otra solución de protección de identidad que debe implementarse al menos para cualquier tipo de acceso administrativo a**TODO** aplicaciones y dispositivos.
+
+---
+
+# **Escaneo de vulnerabilidades**
+
+Realice análisis continuos de vulnerabilidades de su entorno y solucione al menos las vulnerabilidades "altas" y "críticas" que se descubran. Si bien el escaneo se puede automatizar, las correcciones generalmente requieren intervención manual. Si no puede aplicar parches por algún motivo, ¡definitivamente segmente los sistemas que son vulnerables!
+
+---
+
+# **Capacitación en concientización del usuario**
+
+Capacitar a los usuarios para que reconozcan comportamientos sospechosos y los informen cuando los descubran es una gran victoria para nosotros. Si bien es poco probable que se alcance el 100% de éxito en esta tarea, se sabe que estas capacitaciones reducen significativamente la cantidad de compromisos exitosos. Las pruebas periódicas "sorpresa" también deberían formar parte de esta formación, incluidos, por ejemplo, correos electrónicos mensuales de phishing, memorias USB caídas en el edificio de oficinas, etc.
+
+---
+
+# **Evaluación de seguridad de Active Directory**
+
+La mejor manera de detectar errores de configuración de seguridad o vulnerabilidades críticas expuestas es buscarlas desde la perspectiva de un atacante. Hacer sus propias revisiones (o contratar a un tercero si la organización no cuenta con el conjunto de habilidades) garantizará que cuando un dispositivo terminal se vea comprometido, el atacante no tendrá la posibilidad de escalar en un solo paso a altos privilegios en la red. Cuantas más herramientas y actividad adicional genere un atacante, mayor será la probabilidad de que usted las detecte, así que trate de eliminar las ganancias fáciles y las frutas al alcance de la mano tanto como sea posible.
+
+Active Directory tiene algunas rutas/errores de escalada conocidos y únicos. Con bastante frecuencia también se descubren otros nuevos. Las evaluaciones de seguridad de Active Directory son cruciales para la postura de seguridad del entorno en su conjunto. No asuma que los administradores de su sistema están al tanto de todos los errores descubiertos o publicados, porque en realidad probablemente no lo estén.
+
+---
+
+# **Ejercicios del equipo morado**
+
+Necesitamos capacitar a los encargados de manejar incidentes y mantenerlos comprometidos. No hay duda al respecto y el mejor lugar para hacerlo es dentro del propio entorno de una organización. Los ejercicios del equipo morado son esencialmente evaluaciones de seguridad realizadas por un equipo rojo que, de forma continua o eventualmente, informan al equipo azul sobre sus acciones, hallazgos, cualquier deficiencia de visibilidad/seguridad, etc. Dichos ejercicios ayudarán a identificar vulnerabilidades en una organización mientras prueban la defensa del equipo azul. capacidad en términos de registro, monitoreo, detección y capacidad de respuesta. Si una amenaza pasa desapercibida, existe una oportunidad de mejorar. Para aquellos que son detectados, el equipo azul puede probar los manuales y procedimientos de manejo de incidentes para garantizar que sean sólidos y que se haya logrado el resultado esperado.
