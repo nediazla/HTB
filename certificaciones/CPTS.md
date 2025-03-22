@@ -1,23 +1,23 @@
 
-**Penetration Testin Process**
-- ###### Using Academy Effectively
-	- [Introduction to the Penetration Tester Path](module/90/section/1569)
-	- [Academy Modules Layout](module/90/section/1559)
-	- [Academy Exercises & Questions](module/90/section/1570)
-- ###### Background & Preparation
-	- [Penetration Testing Overview](module/90/section/935)
-	- [Laws and Regulations](module/90/section/1980)
-	- [Penetration Testing Process](module/90/section/936)
-- ###### Penetration Testing Phases - Assessment Specific Stages
-	-  [Pre-Engagement](module/90/section/937)
-	 - [Information Gathering](module/90/section/938)  
-	 - [Vulnerability Assessment](module/90/section/939)
-	 - [Exploitation](module/90/section/940)  
-	 - [Post-Exploitation](module/90/section/941)
-	 - [Lateral Movement](module/90/section/942)
-- ###### Penetration Testing Phases - Project Closeout
-	- [Proof-of-Concept](module/90/section/943)  
-	- [Post-Engagement](module/90/section/944)
+- **Penetration Testin Process*	
+	- ###### Using Academy Effectively
+		- [Introduction to the Penetration Tester Path](module/90/section/1569)
+		- [Academy Modules Layout](module/90/section/1559)
+		- [Academy Exercises & Questions](module/90/section/1570)
+	- ###### Background & Preparation	
+		- [Penetration Testing Overview](module/90/section/935)
+		- [Laws and Regulations](module/90/section/1980)
+		- [Penetration Testing Process](module/90/section/936)
+	- ###### Penetration Testing Phases - Assessment Specific Stages
+		-  [Pre-Engagement](module/90/section/937)
+		 - [Information Gathering](module/90/section/938)  
+		 - [Vulnerability Assessment](module/90/section/939)
+		 - [Exploitation](module/90/section/940)  
+		 - [Post-Exploitation](module/90/section/941)
+		 - [Lateral Movement](module/90/section/942)
+	- ###### Penetration Testing Phases - Project Closeout
+		- [Proof-of-Concept](module/90/section/943)  
+		- [Post-Engagement](module/90/section/944)
 
 Este módulo enseña el proceso de prueba de penetración desglosado en cada etapa y se analiza en detalle. Cubriremos muchos aspectos del rol de un evaluador de penetración durante una prueba de penetración, explicados e ilustrados con ejemplos detallados. El módulo también cubre los pasos previos a la contratación, como los criterios para establecer un contrato con un cliente para una prueba de penetración.
 
