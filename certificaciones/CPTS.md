@@ -1,23 +1,23 @@
 
 - Penetration Testin Process	
 	- Using Academy Effectively
-		- [Introduction to the Penetration Tester Path](module/90/section/1569)
+		- [Introduction to the Penetration Tester Path](1569.md)
 		- [Academy Modules Layout](module/90/section/1559)
 		- [Academy Exercises & Questions](module/90/section/1570)
 	- Background & Preparation	
-		- [Penetration Testing Overview](module/90/section/935)
-		- [Laws and Regulations](module/90/section/1980)
-		- [Penetration Testing Process](module/90/section/936)
+		- [Penetration Testing Overview](935.md)
+		- [Laws and Regulations](1980.md)
+		- [Penetration Testing Process](936.md)
 	- Penetration Testing Phases - Assessment Specific Stages
-		- [Pre-Engagement](module/90/section/937)
-		- [Information Gathering](module/90/section/938)  
-		- [Vulnerability Assessment](module/90/section/939)
-		- [Exploitation](module/90/section/940)  
-		- [Post-Exploitation](module/90/section/941)
-		- [Lateral Movement](module/90/section/942)
+		- [Pre-Engagement](937.md)
+		- [Information Gathering](938.md)  
+		- [Vulnerability Assessment](939.md)
+		- [Exploitation](940.md)  
+		- [Post-Exploitation](941.md)
+		- [Lateral Movement](942.md)
 	- Penetration Testing Phases - Project Closeout
-		- [Proof-of-Concept](module/90/section/943)  
-		- [Post-Engagement](module/90/section/944)
+		- [Proof-of-Concept](943.md)  
+		- [Post-Engagement](944.md)
 
 Este módulo enseña el proceso de prueba de penetración desglosado en cada etapa y se analiza en detalle. Cubriremos muchos aspectos del rol de un evaluador de penetración durante una prueba de penetración, explicados e ilustrados con ejemplos detallados. El módulo también cubre los pasos previos a la contratación, como los criterios para establecer un contrato con un cliente para una prueba de penetración.
 
@@ -87,7 +87,7 @@ Este módulo cubre técnicas para realizar un seguimiento de los servicios más 
         - [Utilising WHOIS](1248.md)
 	- DNS & Subdominios
         -  [DNS](3074.md)
-        - [Digging DNS](HTB/certificaciones/module/144/section/1251.md)
+        - [Digging DNS](1251.md)
         - [Subdomains](1252.md)
         - [Subdomain Bruteforcing](1253.md)
         - [DNS Zone Transfers](1255.md)
@@ -300,7 +300,7 @@ Los marcos de pruebas de penetración de aplicaciones web son una parte esencial
         - [DNS Records](499.md)
         - [Sub-domain Fuzzing](488.md)
         - [Vhost Fuzzing](500.md)
-        - [Filtering Results](HTB/certificaciones/module/54/section/502.md)
+        - [Filtering Results](502.md)
     - Parameter Fuzzing
         - [Parameter Fuzzing - GET](490.md)
         - [Parameter Fuzzing - POST](508.md)
@@ -479,7 +479,7 @@ Los probadores de penetración pueden encontrar varias aplicaciones, como sistem
 		- [Special Permissions](470.md)  
 		- [Sudo Rights Abuse](471.md)  
 		- [Privileged Groups](477.md)  
-		- [Capabilities](module/51/section/1844)
+		- [Capabilities](1844.md)
 	- Service-based Privilege Escalation
 		- [Vulnerable Services](468.md)  
 		- [Cron Job Abuse](469.md)  
