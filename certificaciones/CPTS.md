@@ -456,9 +456,9 @@ Este módulo cubre tres vulnerabilidades web comunes: HTTP Verb Tampering, IDOR 
 		- [Attacking ColdFusion](2135.md)  
 		- [IIS Tilde Enumeration](2152.md)  
 		- [Attacking LDAP](2153.md)  
-		 - [Web Mass Assignment Vulnerabilities](2160.md)  
-		 - [Attacking Applications Connecting to Services](2154.md)  
-		 - [Other Notable Applications](1102.md)
+		- [Web Mass Assignment Vulnerabilities](2160.md)  
+		- [Attacking Applications Connecting to Services](2154.md)  
+		- [Other Notable Applications](1102.md)
 	- ###### Closing Out
 		- [Application Hardening](1096.md)
 
@@ -468,11 +468,11 @@ Los probadores de penetración pueden encontrar varias aplicaciones, como sistem
 	- ###### Introduction
 		- [Introduction to Linux Privilege Escalation](466.md)
 	- ###### Information Gathering
-		 - [Environment Enumeration](1592.md)  
-		 - [Linux Services & Internals Enumeration](1777.md)  
-		 - [Credential Hunting](474.md)
+		- [Environment Enumeration](1592.md)  
+		- [Linux Services & Internals Enumeration](1777.md)  
+		- [Credential Hunting](474.md)
 	- ###### Environment-based Privilege Escalation
-		-  [Path Abuse](472.md)
+		- [Path Abuse](472.md)
 		- [Wildcard Abuse](473.md)  
 		- [Escaping Restricted Shells](1845.md)
 	- ###### Permissions-based Privilege Escalation
