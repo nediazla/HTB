@@ -280,11 +280,11 @@ Las organizaciones utilizan habitualmente un conjunto estándar de servicios par
 
 Una vez que se logra un punto de apoyo durante una evaluación, es posible que sea posible moverse lateral y verticalmente dentro de una red objetivo. Usar una máquina comprometida para acceder a otra se llama pivotar y nos permite acceder a redes y recursos a los que no podemos acceder directamente a través del host comprometido. El reenvío de puertos acepta el tráfico en una dirección IP y un puerto determinados y lo redirige a una combinación de dirección IP y puerto diferente. El túnel es una técnica que nos permite encapsular el tráfico dentro de otro protocolo para que parezca un flujo de tráfico benigno.
 
-Active Directory Enumeration & Attacks
+- Active Directory Enumeration & Attacks
 
 Active Directory (AD) es el paquete de gestión de dominios empresariales líder, que proporciona gestión de identidades y acceso, administración de dominios centralizada, autenticación y mucho más. Debido a las muchas características y complejidad de AD, presenta una gran superficie de ataque que es difícil de proteger adecuadamente. Para tener éxito como profesionales de seguridad de la información, debemos comprender las arquitecturas de AD y cómo proteger nuestros entornos empresariales. Como evaluadores de penetración, es imprescindible tener una idea clara de qué herramientas, técnicas y procedimientos están disponibles para enumerar y atacar entornos de AD y las configuraciones erróneas de AD que se observan con frecuencia.
 
-Using Web Proxies
+- Using Web Proxies
 
 Los marcos de pruebas de penetración de aplicaciones web son una parte esencial de cualquier prueba de penetración web. Este módulo le enseñará dos de los mejores marcos: Burp Suite y OWASP ZAP.
 
@@ -308,7 +308,7 @@ Los marcos de pruebas de penetración de aplicaciones web son una parte esencial
 
 Este módulo cubre las habilidades de enumeración fundamentales de fuzzing web y fuerza bruta de directorios utilizando la herramienta Ffuf. Las técnicas aprendidas en este módulo nos ayudarán a localizar páginas, directorios y parámetros ocultos al apuntar a aplicaciones web.
 
-Login Brute Forcing
+- Login Brute Forcing
 
 El módulo contiene una exploración de técnicas de fuerza bruta, incluido el uso de herramientas como Hydra y Medusa, y la importancia de prácticas de contraseñas seguras. Cubre varios escenarios de ataque, como ataques dirigidos a SSH, FTP y formularios de inicio de sesión web.
 
@@ -355,7 +355,7 @@ Las bases de datos son una parte importante de la infraestructura de aplicacione
 
 El módulo SQLMap Essentials le enseñará los conceptos básicos del uso de SQLMap para descubrir varios tipos de vulnerabilidades de inyección SQL, hasta la enumeración avanzada de bases de datos para recuperar todos los datos de interés.
 
-Cross-Site Scripting (XSS)
+- Cross-Site Scripting (XSS)
 
 Las vulnerabilidades de secuencias de comandos entre sitios (XSS) se encuentran entre las vulnerabilidades de aplicaciones web más comunes. Una vulnerabilidad XSS puede permitir a un atacante ejecutar código JavaScript arbitrario dentro del navegador del objetivo y comprometer completamente la aplicación web si se encadena con otras vulnerabilidades. Este módulo le enseñará cómo identificar vulnerabilidades XSS y explotarlas.
 
@@ -376,7 +376,7 @@ Las vulnerabilidades de secuencias de comandos entre sitios (XSS) se encuentran 
 
 La inclusión de archivos es una vulnerabilidad común de las aplicaciones web, que puede pasarse por alto fácilmente como parte de la funcionalidad de una aplicación web.
 
-File Upload Attacks
+- File Upload Attacks
 
 La carga arbitraria de archivos se encuentra entre las vulnerabilidades web más críticas. Estas fallas permiten a los atacantes cargar archivos maliciosos, ejecutar comandos arbitrarios en el servidor back-end e incluso tomar el control de todo el servidor y de todas las aplicaciones web alojadas en él y potencialmente obtener acceso a datos confidenciales o causar una interrupción del servicio.
 
@@ -548,10 +548,10 @@ La escalada de privilegios es una fase crucial durante cualquier evaluación de 
 
 Después de afianzarnos, elevar nuestros privilegios brindará más opciones de persistencia y puede revelar información almacenada localmente que puede mejorar nuestro acceso al entorno. La enumeración es la clave para la escalada de privilegios. Cuando obtiene acceso inicial al shell del host, es importante conocer la situación y descubrir detalles relacionados con la versión del sistema operativo, el nivel de parche, cualquier software instalado, nuestros privilegios actuales, membresías de grupos y más. Windows presenta una enorme superficie de ataque y, dado que la mayoría de las empresas ejecutan hosts de Windows de alguna manera, la mayoría de las veces nos encontraremos obteniendo acceso a máquinas con Windows durante nuestras evaluaciones. Esto cubre métodos comunes y al mismo tiempo enfatiza las configuraciones erróneas y los defectos del mundo real que podemos encontrar durante una evaluación. Hay muchas posibilidades adicionales de "casos extremos" que no se tratan en este módulo. Cubriremos las versiones de escritorio y servidor de Windows modernas y heredadas que pueden estar presentes en un entorno de cliente.
 
-Documentation & Reporting
+- Documentation & Reporting
 
 La documentación adecuada es primordial durante cualquier compromiso. El objetivo final de una evaluación técnica es el informe entregable que a menudo se presentará a una audiencia amplia dentro de la organización objetivo. Debemos tomar notas detalladas y ser muy organizados en nuestra documentación, lo que nos ayudará en caso de alguna incidencia durante la evaluación. Esto también ayudará a garantizar que nuestros informes contengan suficientes detalles para ilustrar adecuadamente el impacto de nuestros hallazgos.
 
-Attacking Enterprise Networks
+- Attacking Enterprise Networks
 
 A menudo nos encontramos con redes grandes y complejas durante nuestras evaluaciones. Debemos sentirnos cómodos al acercarnos a una red interna o externa, independientemente del tamaño, y ser capaces de trabajar en cada fase del proceso de prueba de penetración para alcanzar nuestro objetivo. Este módulo guiará a los estudiantes a través de una prueba de penetración simulada, de principio a fin, con énfasis en los pasos de prueba prácticos que son directamente aplicables a interacciones del mundo real.
