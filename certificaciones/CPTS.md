@@ -464,87 +464,87 @@ Este módulo cubre tres vulnerabilidades web comunes: HTTP Verb Tampering, IDOR 
 
 Los probadores de penetración pueden encontrar varias aplicaciones, como sistemas de gestión de contenido, aplicaciones web personalizadas, portales internos utilizados por desarrolladores y administradores de sistemas, y más. Es común encontrar las mismas aplicaciones en muchos entornos diferentes. Si bien es posible que una aplicación no sea vulnerable en un entorno, es posible que esté mal configurada o sin parches en el siguiente. Es importante, como evaluador, tener una sólida comprensión de cómo enumerar y atacar las aplicaciones comunes analizadas en este módulo. Este conocimiento ayudará cuando se encuentre con otros tipos de aplicaciones durante las evaluaciones.
 
-**Linux Privilege Escalation**
-- ###### Introduction
-	- [Introduction to Linux Privilege Escalation](466.md)
-- ###### Information Gathering
-	 - [Environment Enumeration](1592.md)  
-	 - [Linux Services & Internals Enumeration](1777.md)  
-	 - [Credential Hunting](474.md)
-- ###### Environment-based Privilege Escalation
-	-  [Path Abuse](472.md)
-	- [Wildcard Abuse](473.md)  
-	- [Escaping Restricted Shells](1845.md)
-- ###### Permissions-based Privilege Escalation
-	 - [Special Permissions](470.md)  
-	  - [Sudo Rights Abuse](471.md)  
-	  - [Privileged Groups](477.md)  
-	  - [Capabilities](module/51/section/1844)
-- ###### Service-based Privilege Escalation
-	 - [Vulnerable Services](468.md)  
-	  - [Cron Job Abuse](469.md)  
-	  - [LXD](1588.md)  
-	  - [Docker](2411.md)
-	  - [Kubernetes](2444.md)  
-	  - [Logrotate](1589.md)  
-	  - [Miscellaneous Techniques](478.md)
-- ###### Linux Internals-based Privilege Escalation
-	 - [Kernel Exploits](467.md)  
-	  - [Shared Libraries](475.md)  
-	  - [Shared Object Hijacking](476.md)  
-	  - [Python Library Hijacking](1640.md)
-- ###### Recent 0-Days
-	 - [Sudo](1590.md)  
-	  - [Polkit](1591.md)  
-	  - [Dirty Pipe](1597.md)
-	  - [Netfilter](1598.md)
-- ###### Hardening Considerations
-	- [Linux Hardening](479.md)
+- **Linux Privilege Escalation**
+	- ###### Introduction
+		- [Introduction to Linux Privilege Escalation](466.md)
+	- ###### Information Gathering
+		 - [Environment Enumeration](1592.md)  
+		 - [Linux Services & Internals Enumeration](1777.md)  
+		 - [Credential Hunting](474.md)
+	- ###### Environment-based Privilege Escalation
+		-  [Path Abuse](472.md)
+		- [Wildcard Abuse](473.md)  
+		- [Escaping Restricted Shells](1845.md)
+	- ###### Permissions-based Privilege Escalation
+		 - [Special Permissions](470.md)  
+		  - [Sudo Rights Abuse](471.md)  
+		  - [Privileged Groups](477.md)  
+		  - [Capabilities](module/51/section/1844)
+	- ###### Service-based Privilege Escalation
+		 - [Vulnerable Services](468.md)  
+		  - [Cron Job Abuse](469.md)  
+		  - [LXD](1588.md)  
+		  - [Docker](2411.md)
+		  - [Kubernetes](2444.md)  
+		  - [Logrotate](1589.md)  
+		  - [Miscellaneous Techniques](478.md)
+	- ###### Linux Internals-based Privilege Escalation
+		 - [Kernel Exploits](467.md)  
+		  - [Shared Libraries](475.md)  
+		  - [Shared Object Hijacking](476.md)  
+		  - [Python Library Hijacking](1640.md)
+	- ###### Recent 0-Days
+		 - [Sudo](1590.md)  
+		  - [Polkit](1591.md)  
+		  - [Dirty Pipe](1597.md)
+		  - [Netfilter](1598.md)
+	- ###### Hardening Considerations
+		- [Linux Hardening](479.md)
 
 La escalada de privilegios es una fase crucial durante cualquier evaluación de seguridad. Durante esta fase, intentamos obtener acceso a usuarios, hosts y recursos adicionales para acercarnos al objetivo general de la evaluación. Hay muchas formas de aumentar los privilegios. Este módulo tiene como objetivo cubrir los métodos más comunes, enfatizando las configuraciones erróneas y fallas del mundo real que podemos encontrar en el entorno de un cliente. Las técnicas cubiertas en este módulo no son una lista exhaustiva de todas las posibilidades y tienen como objetivo evitar tácticas extremas de "casos extremos" que pueden verse en un ejercicio de Captura de Bandera (CTF).
 
-**Windows Privilege Escalation**
-- ###### Introduction
-	- [Introduction to Windows Privilege Escalation](623.md)
-	- [Useful Tools](634.md)
-- ###### Getting the Lay of the Land
-	 - [Situational Awareness](927.md)  
-	  - [Initial Enumeration](633.md)  
-	  - [Communication with Processes](926.md)
-- ###### Windows User Privileges
-	- [Windows Privileges Overview](624.md)  
-	- [SeImpersonate and SeAssignPrimaryToken](607.md)  
-	- [SeDebugPrivilege](631.md)  
-	- [SeTakeOwnershipPrivilege](642.md)
-- ###### Windows Group Privileges
-	 - [Windows Built-in Groups](601.md)  
-	  - [Event Log Readers](602.md)  
-	  - [DnsAdmins](603.md)
-	  - [Hyper-V Administrators](604.md)  
-	  - [Print Operators](605.md)  
-	  - [Server Operators](606.md)
-- ###### Attacking the OS
-	 - [User Account Control](626.md)  
-	  - [Weak Permissions](628.md)  
-	  - [Kernel Exploits](627.md)  
-	  - [Vulnerable Services](910.md)
-	  - [DLL Injection](2501.md)
-- ###### Credential Theft
-	 - [Credential Hunting](640.md)  
-	  - [Other Files](639.md)  
-	  - [Further Credential Theft](638.md)
-- ###### Restricted Environments
-	 - [Citrix Breakout](2502.md)
-- ###### Additional Techniques
-	 - [Interacting with Users](630.md)  
-	  - [Pillaging](1637.md)  
-	  - [Miscellaneous Techniques](635.md)
-- ###### Dealing with End of Life Systems
-	- [Legacy Operating Systems](911.md)  
-	- [Windows Server](912.md)  
-	- [Windows Desktop Versions](913.md)
-- **Windows Thoughts
-	- [Windows Hardening](636.md)
+- **Windows Privilege Escalation**
+	- ###### Introduction
+		- [Introduction to Windows Privilege Escalation](623.md)
+		- [Useful Tools](634.md)
+	- ###### Getting the Lay of the Land
+		 - [Situational Awareness](927.md)  
+		  - [Initial Enumeration](633.md)  
+		  - [Communication with Processes](926.md)
+	- ###### Windows User Privileges
+		- [Windows Privileges Overview](624.md)  
+		- [SeImpersonate and SeAssignPrimaryToken](607.md)  
+		- [SeDebugPrivilege](631.md)  
+		- [SeTakeOwnershipPrivilege](642.md)
+	- ###### Windows Group Privileges
+		 - [Windows Built-in Groups](601.md)  
+		  - [Event Log Readers](602.md)  
+		  - [DnsAdmins](603.md)
+		  - [Hyper-V Administrators](604.md)  
+		  - [Print Operators](605.md)  
+		  - [Server Operators](606.md)
+	- ###### Attacking the OS
+		 - [User Account Control](626.md)  
+		  - [Weak Permissions](628.md)  
+		  - [Kernel Exploits](627.md)  
+		  - [Vulnerable Services](910.md)
+		  - [DLL Injection](2501.md)
+	- ###### Credential Theft
+		 - [Credential Hunting](640.md)  
+		  - [Other Files](639.md)  
+		  - [Further Credential Theft](638.md)
+	- ###### Restricted Environments
+		 - [Citrix Breakout](2502.md)
+	- ###### Additional Techniques
+		 - [Interacting with Users](630.md)  
+		  - [Pillaging](1637.md)  
+		  - [Miscellaneous Techniques](635.md)
+	- ###### Dealing with End of Life Systems
+		- [Legacy Operating Systems](911.md)  
+		- [Windows Server](912.md)  
+		- [Windows Desktop Versions](913.md)
+	- **Windows Thoughts
+		- [Windows Hardening](636.md)
 
 Después de afianzarnos, elevar nuestros privilegios brindará más opciones de persistencia y puede revelar información almacenada localmente que puede mejorar nuestro acceso al entorno. La enumeración es la clave para la escalada de privilegios. Cuando obtiene acceso inicial al shell del host, es importante conocer la situación y descubrir detalles relacionados con la versión del sistema operativo, el nivel de parche, cualquier software instalado, nuestros privilegios actuales, membresías de grupos y más. Windows presenta una enorme superficie de ataque y, dado que la mayoría de las empresas ejecutan hosts de Windows de alguna manera, la mayoría de las veces nos encontraremos obteniendo acceso a máquinas con Windows durante nuestras evaluaciones. Esto cubre métodos comunes y al mismo tiempo enfatiza las configuraciones erróneas y los defectos del mundo real que podemos encontrar durante una evaluación. Hay muchas posibilidades adicionales de "casos extremos" que no se tratan en este módulo. Cubriremos las versiones de escritorio y servidor de Windows modernas y heredadas que pueden estar presentes en un entorno de cliente.
 
