@@ -1,5 +1,5 @@
 
-- **Penetration Testin Process*	
+- **Penetration Testin Process**	
 	- ###### Using Academy Effectively
 		- [Introduction to the Penetration Tester Path](module/90/section/1569)
 		- [Academy Modules Layout](module/90/section/1559)
