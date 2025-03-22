@@ -4,7 +4,6 @@
 - [Paths](paths.md)
 - [Maquinas](maquinas.md)
 -  Cheatsheet
-	- [cpts](CPTS-cheatsheet/README.md)
-	- [[ATTACKING COMMON APPLICATIONS]]
-	- [[ATTACKING COMMON SERVICES]]
-	- [[ATTACKING WEB APPLICATIONS WITH FFUF]]
+	- [cpts - Resume](CPTS-cheatsheet/README.md)
+	- [Attaking commom applications](cybersecurity_cheatsheets/ATTACKING COMMON APPLICATIONS.md)
+	- [ATTACKING COMMON SERVICES](ATTACKING COMMON SERVICES.md)
