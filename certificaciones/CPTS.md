@@ -9,12 +9,12 @@
 	- [Laws and Regulations](module/90/section/1980)
 	- [Penetration Testing Process](module/90/section/936)
 - ###### Penetration Testing Phases - Assessment Specific Stages
-	  - [Pre-Engagement](module/90/section/937)
-	  - [Information Gathering](module/90/section/938)  
-	  - [Vulnerability Assessment](module/90/section/939)
-	  - [Exploitation](module/90/section/940)  
-	  - [Post-Exploitation](module/90/section/941)
-	  - [Lateral Movement](module/90/section/942)
+	-  [Pre-Engagement](module/90/section/937)
+	 - [Information Gathering](module/90/section/938)  
+	 - [Vulnerability Assessment](module/90/section/939)
+	 - [Exploitation](module/90/section/940)  
+	 - [Post-Exploitation](module/90/section/941)
+	 - [Lateral Movement](module/90/section/942)
 - ###### Penetration Testing Phases - Project Closeout
 	- [Proof-of-Concept](module/90/section/943)  
 	- [Post-Engagement](module/90/section/944)
@@ -235,45 +235,45 @@ Las contraseñas siguen siendo el principal método de autenticación en las red
 		-   [Attacking FTP](1165.md)
 		- [Latest FTP Vulnerabilities](1166.md)
 	- ###### SMB
-		  - [Attacking SMB](1167.md)
-		  - [Latest SMB Vulnerabilities](1168.md)
+		- [Attacking SMB](1167.md)
+		 - [Latest SMB Vulnerabilities](1168.md)
 	- ###### SQL Databases
-		  - [Attacking SQL Databases](1169.md)
+		 - [Attacking SQL Databases](1169.md)
 		  - [Latest SQL Vulnerabilities](1170.md)
 	- ###### RDP
-		  - [Attacking RDP](1171.md)
+		 - [Attacking RDP](1171.md)
 		  - [Latest RDP Vulnerabilities](1172.md)
 	- ###### DNS
-		  - [Attacking DNS](1512.md)
+		 - [Attacking DNS](1512.md)
 		  - [Latest DNS Vulnerabilities](1513.md)
 	- ###### SMTP
-		  - [Attacking Email Services](1173.md)
+		 - [Attacking Email Services](1173.md)
 		  - [Latest Email Service Vulnerabilities](1174.md)
 
 Las organizaciones utilizan habitualmente un conjunto estándar de servicios para diferentes propósitos. Es vital realizar actividades de pruebas de penetración en cada servicio interna y externamente para garantizar que no introduzcan amenazas a la seguridad. Este módulo cubrirá cómo enumerar cada servicio y probarlo contra vulnerabilidades y exploits conocidos con un conjunto estándar de herramientas.
 
 - **Pivoting, Tunneling, and Port Forwarding**
-	   -  ###### Introduction
+	- ###### Introduction
 		- [Introduction to Pivoting, Tunneling, and Port Forwarding](1425.md)
 		- [The Networking Behind Pivoting](https://acadmodule/158/section/1465)
 	- ###### Choosing The Dig Site & Starting Our Tunnels
-		  - [Dynamic Port Forwarding with SSH and SOCKS Tunneling](1426.md)  
-		  - [Remote/Reverse Port Forwarding with SSH](1427.md)  
-		  - [Meterpreter Tunneling & Port Forwarding](1428.md)
+		 - [Dynamic Port Forwarding with SSH and SOCKS Tunneling](1426.md)  
+		 - [Remote/Reverse Port Forwarding with SSH](1427.md)  
+		 - [Meterpreter Tunneling & Port Forwarding](1428.md)
 	- ###### Playing Pong with Socat
-		  - [Socat Redirection with a Reverse Shell](1430.md)  
-		  - [Socat Redirection with a Bind Shell](1429.md)
+		 - [Socat Redirection with a Reverse Shell](1430.md)  
+		 - [Socat Redirection with a Bind Shell](1429.md)
 	- ###### Pivoting Around Obstacles
-		  - [SSH for Windows: plink.exe](1431.md)  
-		  - [SSH Pivoting with sshuttle](1432.md)  
-		  - [Web Server Pivoting with Rpivot](1434.md)  
-		  - [Port Forwarding with Windows: Netsh](1435.md)
+		 - [SSH for Windows: plink.exe](1431.md)  
+		 - [SSH Pivoting with sshuttle](1432.md)  
+		 - [Web Server Pivoting with Rpivot](1434.md)  
+		 - [Port Forwarding with Windows: Netsh](1435.md)
 	- ###### Branching Out Our Tunnels
-		  - [DNS Tunneling with Dnscat2](1436.md)  
-		  - [SOCKS5 Tunneling with Chisel](1437.md)  
-		  - [ICMP Tunneling with SOCKS](1438.md)
+		 - [DNS Tunneling with Dnscat2](1436.md)  
+		 - [SOCKS5 Tunneling with Chisel](1437.md)  
+		 - [ICMP Tunneling with SOCKS](1438.md)
 	- ###### Double Pivots
-		  - [RDP and SOCKS Tunneling with SocksOverRDP](1439.md)
+		 - [RDP and SOCKS Tunneling with SocksOverRDP](1439.md)
 	- ###### Additional Considerations
 		- [Detection & Prevention](1442.md)
 		- [Beyond this Module](1518.md)
@@ -427,38 +427,38 @@ Este módulo cubre tres vulnerabilidades web comunes: HTTP Verb Tampering, IDOR 
 		- [Introduction to Attacking Common Applications](1087.md)  
 		- [Application Discovery & Enumeration](1088.md)
 	- ###### Content Management Systems (CMS)
-		  - [WordPress - Discovery & Enumeration](1100.md)  
-		  - [Attacking WordPress](1208.md)  
-		  - [Joomla - Discovery & Enumeration](1095.md)  
-		  - [Attacking Joomla](1210.md)  
-		  - [Drupal - Discovery & Enumeration](1089.md)  [Attacking Drupal](https://academy.hackthebox.com/module/113/section/1209)
+		 - [WordPress - Discovery & Enumeration](1100.md)  
+		 - [Attacking WordPress](1208.md)  
+		 - [Joomla - Discovery & Enumeration](1095.md)  
+		 - [Attacking Joomla](1210.md)  
+		 - [Drupal - Discovery & Enumeration](1089.md)  [Attacking Drupal](https://academy.hackthebox.com/module/113/section/1209)
 	- ###### Servlet Containers/Software Development
-		  - [Tomcat - Discovery & Enumeration](1090.md)  
-		  - [Attacking Tomcat](1211.md)  
-		  - [Jenkins - Discovery & Enumeration](1091.md)  
-		  - [Attacking Jenkins](1212.md)
+		 - [Tomcat - Discovery & Enumeration](1090.md)  
+		 - [Attacking Tomcat](1211.md)  
+		 - [Jenkins - Discovery & Enumeration](1091.md)  
+		 - [Attacking Jenkins](1212.md)
 	- ###### Infrastructure/Network Monitoring Tools
-		  - [Splunk - Discovery & Enumeration](1092.md)  
-		  - [Attacking Splunk](1213.md)  
-		  - [PRTG Network Monitor](1094.md)
+		 - [Splunk - Discovery & Enumeration](1092.md)  
+		 - [Attacking Splunk](1213.md)  
+		 - [PRTG Network Monitor](1094.md)
 	- ###### Customer Service Mgmt & Configuration Management
-		  - [osTicket](1214.md)  
-		  - [Gitlab - Discovery & Enumeration](1216.md)  
-		  - [Attacking GitLab](1217.md)
+		 - [osTicket](1214.md)  
+		 - [Gitlab - Discovery & Enumeration](1216.md)  
+		 - [Attacking GitLab](1217.md)
 	- ###### Common Gateway Interfaces
-		  - [Attacking Tomcat CGI](2140.md)  
-		  - [Attacking CGI Applications - Shellshock](2166.md)
+		 - [Attacking Tomcat CGI](2140.md)  
+		 - [Attacking CGI Applications - Shellshock](2166.md)
 	- ###### Thick Client Applications
-		  - [Attacking Thick Client Applications](2139.md)  
-		  - [Exploiting Web Vulnerabilities in Thick-Client Applications](2164.md)
+		 - [Attacking Thick Client Applications](2139.md)  
+		 - [Exploiting Web Vulnerabilities in Thick-Client Applications](2164.md)
 	- ###### Miscellaneous Applications
-		  - [ColdFusion - Discovery & Enumeration](2134.md)  
-		  - [Attacking ColdFusion](2135.md)  
-		  - [IIS Tilde Enumeration](2152.md)  
-		  - [Attacking LDAP](2153.md)  
-		  - [Web Mass Assignment Vulnerabilities](2160.md)  
-		  - [Attacking Applications Connecting to Services](2154.md)  
-		  - [Other Notable Applications](1102.md)
+		 - [ColdFusion - Discovery & Enumeration](2134.md)  
+		 - [Attacking ColdFusion](2135.md)  
+		 - [IIS Tilde Enumeration](2152.md)  
+		 - [Attacking LDAP](2153.md)  
+		 - [Web Mass Assignment Vulnerabilities](2160.md)  
+		 - [Attacking Applications Connecting to Services](2154.md)  
+		 - [Other Notable Applications](1102.md)
 	- ###### Closing Out
 		- [Application Hardening](1096.md)
 
@@ -468,20 +468,20 @@ Los probadores de penetración pueden encontrar varias aplicaciones, como sistem
 - ###### Introduction
 	- [Introduction to Linux Privilege Escalation](466.md)
 - ###### Information Gathering
-	  - [Environment Enumeration](1592.md)  
-	  - [Linux Services & Internals Enumeration](1777.md)  
-	  - [Credential Hunting](474.md)
+	 - [Environment Enumeration](1592.md)  
+	 - [Linux Services & Internals Enumeration](1777.md)  
+	 - [Credential Hunting](474.md)
 - ###### Environment-based Privilege Escalation
 	-  [Path Abuse](472.md)
 	- [Wildcard Abuse](473.md)  
 	- [Escaping Restricted Shells](1845.md)
 - ###### Permissions-based Privilege Escalation
-	  - [Special Permissions](470.md)  
+	 - [Special Permissions](470.md)  
 	  - [Sudo Rights Abuse](471.md)  
 	  - [Privileged Groups](477.md)  
 	  - [Capabilities](module/51/section/1844)
 - ###### Service-based Privilege Escalation
-	  - [Vulnerable Services](468.md)  
+	 - [Vulnerable Services](468.md)  
 	  - [Cron Job Abuse](469.md)  
 	  - [LXD](1588.md)  
 	  - [Docker](2411.md)
@@ -489,12 +489,12 @@ Los probadores de penetración pueden encontrar varias aplicaciones, como sistem
 	  - [Logrotate](1589.md)  
 	  - [Miscellaneous Techniques](478.md)
 - ###### Linux Internals-based Privilege Escalation
-	  - [Kernel Exploits](467.md)  
+	 - [Kernel Exploits](467.md)  
 	  - [Shared Libraries](475.md)  
 	  - [Shared Object Hijacking](476.md)  
 	  - [Python Library Hijacking](1640.md)
 - ###### Recent 0-Days
-	  - [Sudo](1590.md)  
+	 - [Sudo](1590.md)  
 	  - [Polkit](1591.md)  
 	  - [Dirty Pipe](1597.md)
 	  - [Netfilter](1598.md)
@@ -508,7 +508,7 @@ La escalada de privilegios es una fase crucial durante cualquier evaluación de 
 	- [Introduction to Windows Privilege Escalation](623.md)
 	- [Useful Tools](634.md)
 - ###### Getting the Lay of the Land
-	  - [Situational Awareness](927.md)  
+	 - [Situational Awareness](927.md)  
 	  - [Initial Enumeration](633.md)  
 	  - [Communication with Processes](926.md)
 - ###### Windows User Privileges
@@ -517,26 +517,26 @@ La escalada de privilegios es una fase crucial durante cualquier evaluación de 
 	- [SeDebugPrivilege](631.md)  
 	- [SeTakeOwnershipPrivilege](642.md)
 - ###### Windows Group Privileges
-	  - [Windows Built-in Groups](601.md)  
+	 - [Windows Built-in Groups](601.md)  
 	  - [Event Log Readers](602.md)  
 	  - [DnsAdmins](603.md)
 	  - [Hyper-V Administrators](604.md)  
 	  - [Print Operators](605.md)  
 	  - [Server Operators](606.md)
 - ###### Attacking the OS
-	  - [User Account Control](626.md)  
+	 - [User Account Control](626.md)  
 	  - [Weak Permissions](628.md)  
 	  - [Kernel Exploits](627.md)  
 	  - [Vulnerable Services](910.md)
 	  - [DLL Injection](2501.md)
 - ###### Credential Theft
-	  - [Credential Hunting](640.md)  
+	 - [Credential Hunting](640.md)  
 	  - [Other Files](639.md)  
 	  - [Further Credential Theft](638.md)
 - ###### Restricted Environments
-	  - [Citrix Breakout](2502.md)
+	 - [Citrix Breakout](2502.md)
 - ###### Additional Techniques
-	  - [Interacting with Users](630.md)  
+	 - [Interacting with Users](630.md)  
 	  - [Pillaging](1637.md)  
 	  - [Miscellaneous Techniques](635.md)
 - ###### Dealing with End of Life Systems
