@@ -549,9 +549,40 @@ La escalada de privilegios es una fase crucial durante cualquier evaluación de 
 Después de afianzarnos, elevar nuestros privilegios brindará más opciones de persistencia y puede revelar información almacenada localmente que puede mejorar nuestro acceso al entorno. La enumeración es la clave para la escalada de privilegios. Cuando obtiene acceso inicial al shell del host, es importante conocer la situación y descubrir detalles relacionados con la versión del sistema operativo, el nivel de parche, cualquier software instalado, nuestros privilegios actuales, membresías de grupos y más. Windows presenta una enorme superficie de ataque y, dado que la mayoría de las empresas ejecutan hosts de Windows de alguna manera, la mayoría de las veces nos encontraremos obteniendo acceso a máquinas con Windows durante nuestras evaluaciones. Esto cubre métodos comunes y al mismo tiempo enfatiza las configuraciones erróneas y los defectos del mundo real que podemos encontrar durante una evaluación. Hay muchas posibilidades adicionales de "casos extremos" que no se tratan en este módulo. Cubriremos las versiones de escritorio y servidor de Windows modernas y heredadas que pueden estar presentes en un entorno de cliente.
 
 - Documentation & Reporting
+	- ###### Intro
+		- [Introduction to Documentation & Reporting](1533.md)
+	- ###### Preparation
+		- [Notetaking & Organization](1534.md)
+		- [Types of Reports](1538.md)
+		- [Components of a Report](1535.md)
+	- ###### Reporting
+		- [How to Write Up a Finding](1536.md)
+		- [Reporting Tips and Tricks](1539.md)
+	- ###### Next Steps
+		- [Documentation & Reporting Practice Lab](1572.md)
+		- [Beyond this Module - Documentation & Reporting](1558.md)
 
 La documentación adecuada es primordial durante cualquier compromiso. El objetivo final de una evaluación técnica es el informe entregable que a menudo se presentará a una audiencia amplia dentro de la organización objetivo. Debemos tomar notas detalladas y ser muy organizados en nuestra documentación, lo que nos ayudará en caso de alguna incidencia durante la evaluación. Esto también ayudará a garantizar que nuestros informes contengan suficientes detalles para ilustrar adecuadamente el impacto de nuestros hallazgos.
 
 - Attacking Enterprise Networks
+	- ###### Pre-Engagement
+		- [Intro to Attacking Enterprise Networks](module/163/section/1540)
+		- [Scenario & Kickoff](module/163/section/1542)
+	- ###### External Testing
+		- [External Information Gathering](module/163/section/1543)  
+		- [Service Enumeration & Exploitation](module/163/section/1545)  
+		- [Web Enumeration & Exploitation](module/163/section/1544)  
+		- [Initial Access](module/163/section/1546)
+	- ###### Internal Testing
+		- [Post-Exploitation Persistence](module/163/section/1555)  
+		- [Internal Information Gathering](module/163/section/1547)  
+		- [Exploitation & Privilege Escalation](module/163/section/1554)
+	- ###### Lateral Movement & Privilege Escalation
+		- [Lateral Movement](module/163/section/1549)  
+		- [Active Directory Compromise](module/163/section/1550)  
+		- [Post-Exploitation](module/163/section/1551)
+- ###### Wrapping Up
+	- [Engagement Closeout](module/163/section/1556)
+	- [Beyond this Module](module/163/section/1557)
 
 A menudo nos encontramos con redes grandes y complejas durante nuestras evaluaciones. Debemos sentirnos cómodos al acercarnos a una red interna o externa, independientemente del tamaño, y ser capaces de trabajar en cada fase del proceso de prueba de penetración para alcanzar nuestro objetivo. Este módulo guiará a los estudiantes a través de una prueba de penetración simulada, de principio a fin, con énfasis en los pasos de prueba prácticos que son directamente aplicables a interacciones del mundo real.
