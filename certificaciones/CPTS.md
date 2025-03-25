@@ -281,10 +281,75 @@ Las organizaciones utilizan habitualmente un conjunto estándar de servicios par
 Una vez que se logra un punto de apoyo durante una evaluación, es posible que sea posible moverse lateral y verticalmente dentro de una red objetivo. Usar una máquina comprometida para acceder a otra se llama pivotar y nos permite acceder a redes y recursos a los que no podemos acceder directamente a través del host comprometido. El reenvío de puertos acepta el tráfico en una dirección IP y un puerto determinados y lo redirige a una combinación de dirección IP y puerto diferente. El túnel es una técnica que nos permite encapsular el tráfico dentro de otro protocolo para que parezca un flujo de tráfico benigno.
 
 - Active Directory Enumeration & Attacks
+	- ###### Setting The Stage
+		- [Introduction to Active Directory Enumeration & Attacks](1262.md)
+		- [Tools Of The Trade](1517.md)
+		- [Scenario](1263.md)
+	- ###### Initial Enumeration
+		- [External Recon and Enumeration Principles](1264.md)  
+		- [Initial Enumeration of the Domain](1265.md)
+	- ###### Sniffing out a Foothold
+		- [LLMNR/NBT-NS Poisoning - from Linux](1272.md)  
+		- [LLMNR/NBT-NS Poisoning - from Windows](1420.md)
+	- ###### Sighting In, Hunting For A User
+		- [Password Spraying Overview](1424.md)  
+		- [Enumerating & Retrieving Password Policies](1490.md)  
+		- [Password Spraying - Making a Target User List](1455.md)
+	- ###### Spray Responsibly
+		- [Internal Password Spraying - from Linux](1271.md)  
+		- [Internal Password Spraying - from Windows](1422.md)
+	- ###### Deeper Down the Rabbit Hole
+		- [Enumerating Security Controls](1459.md)  
+		- [Credentialed Enumeration - from Linux](1269.md)  
+		- [Credentialed Enumeration - from Windows](1421.md)  
+		- [Living Off the Land](1360.md)
+	- ###### Cooking with Fire
+		- [Kerberoasting - from Linux](1274.md)  
+		- [Kerberoasting - from Windows](1423.md)
+	- ###### An ACE in the Hole 
+		- [Access Control List (ACL) Abuse Primer](1456.md)  
+		- [ACL Enumeration](1485.md)  
+		- [ACL Abuse Tactics](1486.md)  
+		- [DCSync](1489.md)
+	- ###### Stacking The Deck
+		- [Privileged Access](1275.md)
+		- [Kerberos "Double Hop" Problem](1573.md)  
+		- [Bleeding Edge Vulnerabilities](1484.md)  
+		- [Miscellaneous Misconfigurations](1276.md)
+	- ###### Why So Trusting?
+		- [Domain Trusts Primer](1488.md)  
+		- [Attacking Domain Trusts - Child -> Parent Trusts - from Windows](1457.md)  
+		- [Attacking Domain Trusts - Child -> Parent Trusts - from Linux](1508.md)
+	- ###### Breaking Down Boundaries
+		- [Attacking Domain Trusts - Cross-Forest Trust Abuse - from Windows](1487.md)  
+		- [Attacking Domain Trusts - Cross-Forest Trust Abuse - from Linux](1509.md)
+	- ###### Defensive Considerations
+		- [Hardening Active Directory](1277.md)  
+		- [Additional AD Auditing Techniques](1460.md)
+	- ###### Skill Assessment - Final Showdown
+		- [Beyond this Module](1267.md)
 
 Active Directory (AD) es el paquete de gestión de dominios empresariales líder, que proporciona gestión de identidades y acceso, administración de dominios centralizada, autenticación y mucho más. Debido a las muchas características y complejidad de AD, presenta una gran superficie de ataque que es difícil de proteger adecuadamente. Para tener éxito como profesionales de seguridad de la información, debemos comprender las arquitecturas de AD y cómo proteger nuestros entornos empresariales. Como evaluadores de penetración, es imprescindible tener una idea clara de qué herramientas, técnicas y procedimientos están disponibles para enumerar y atacar entornos de AD y las configuraciones erróneas de AD que se observan con frecuencia.
 
 - Using Web Proxies
+	- ###### Getting Started
+		- [Intro to Web Proxies](1045.md)
+		- [Setting Up](1046.md)
+	- ###### Web Proxy
+		- [Proxy Setup](1047.md)  
+		- [Intercepting Web Requests](1048.md)
+		- [Intercepting Responses](1049.md)
+		- [Automatic Modification](1050.md)  
+		- [Repeating Requests](1051.md)  
+		- [Encoding/Decoding](1052.md)  
+		- [Proxying Tools](1053.md)
+	- ###### Web Fuzzer
+		- [Burp Intruder](1054.md)  
+		- [ZAP Fuzzer](1056.md)
+	- ###### Web Scanner
+		- [Burp Scanner](1084.md)  
+		- [ZAP Scanner](1086.md)
+		- [Extensions](1104.md)
 
 Los marcos de pruebas de penetración de aplicaciones web son una parte esencial de cualquier prueba de penetración web. Este módulo le enseñará dos de los mejores marcos: Burp Suite y OWASP ZAP.
 
@@ -309,6 +374,22 @@ Los marcos de pruebas de penetración de aplicaciones web son una parte esencial
 Este módulo cubre las habilidades de enumeración fundamentales de fuzzing web y fuerza bruta de directorios utilizando la herramienta Ffuf. Las técnicas aprendidas en este módulo nos ayudarán a localizar páginas, directorios y parámetros ocultos al apuntar a aplicaciones web.
 
 - Login Brute Forcing
+	- ###### Introduction
+		- [Introduction](506.md)
+		- [Password Security Fundamentals](497.md)
+	- ###### Brute Force Attacks
+		- [Brute Force Attacks](498.md)  
+		- [Dictionary Attacks](487.md)
+		- [Hybrid Attacks](489.md)
+	- ###### Hydra
+		- [Hydra](504.md)  
+		- [Basic HTTP Authentication](503.md)  
+		- [Login Forms](3208.md)
+	- ###### Medusa
+		- [Medusa](512.md)  
+		- [Web Services](491.md)
+	- ###### Custom Wordlists
+		- [Custom Wordlists](3209.md)
 
 El módulo contiene una exploración de técnicas de fuerza bruta, incluido el uso de herramientas como Hydra y Medusa, y la importancia de prácticas de contraseñas seguras. Cubre varios escenarios de ataque, como ataques dirigidos a SSH, FTP y formularios de inicio de sesión web.
 
@@ -377,6 +458,20 @@ Las vulnerabilidades de secuencias de comandos entre sitios (XSS) se encuentran 
 La inclusión de archivos es una vulnerabilidad común de las aplicaciones web, que puede pasarse por alto fácilmente como parte de la funcionalidad de una aplicación web.
 
 - File Upload Attacks
+	- [Intro to File Upload Attacks](1259.md)
+	- ###### Basic Exploitation
+		- [Absent Validation](1260.md)  
+		- [Upload Exploitation](module/136/section/1261)
+	- ###### Bypassing Filters
+		- [Client-Side Validation](module/136/section/1280)  
+		- [Blacklist Filters](module/136/section/1288)  
+		- [Whitelist Filters](module/136/section/1289)  
+		- [Type Filters](module/136/section/1290)
+	- ###### Other Upload Attacks
+		- [Limited File Uploads](module/136/section/1291)
+		- [Other Upload Attacks](module/136/section/1292)
+	- ###### Prevention
+		- [Preventing File Upload Vulnerabilities](module/136/section/1309)
 
 La carga arbitraria de archivos se encuentra entre las vulnerabilidades web más críticas. Estas fallas permiten a los atacantes cargar archivos maliciosos, ejecutar comandos arbitrarios en el servidor back-end e incluso tomar el control de todo el servidor y de todas las aplicaciones web alojadas en él y potencialmente obtener acceso a datos confidenciales o causar una interrupción del servicio.
 
@@ -566,23 +661,23 @@ La documentación adecuada es primordial durante cualquier compromiso. El objeti
 
 - Attacking Enterprise Networks
 	- ###### Pre-Engagement
-		- [Intro to Attacking Enterprise Networks](module/163/section/1540)
-		- [Scenario & Kickoff](module/163/section/1542)
+		- [Intro to Attacking Enterprise Networks](1540.md)
+		- [Scenario & Kickoff](1542.md)
 	- ###### External Testing
-		- [External Information Gathering](module/163/section/1543)  
-		- [Service Enumeration & Exploitation](module/163/section/1545)  
-		- [Web Enumeration & Exploitation](module/163/section/1544)  
-		- [Initial Access](module/163/section/1546)
+		- [External Information Gathering](1543.md)  
+		- [Service Enumeration & Exploitation](1545.md)  
+		- [Web Enumeration & Exploitation](1544.md)  
+		- [Initial Access](1546.md)
 	- ###### Internal Testing
-		- [Post-Exploitation Persistence](module/163/section/1555)  
-		- [Internal Information Gathering](module/163/section/1547)  
-		- [Exploitation & Privilege Escalation](module/163/section/1554)
+		- [Post-Exploitation Persistence](1555.md)  
+		- [Internal Information Gathering](1547.md)  
+		- [Exploitation & Privilege Escalation](1554.md)
 	- ###### Lateral Movement & Privilege Escalation
-		- [Lateral Movement](module/163/section/1549)  
-		- [Active Directory Compromise](module/163/section/1550)  
-		- [Post-Exploitation](module/163/section/1551)
+		- [Lateral Movement](1549.md)  
+		- [Active Directory Compromise](1550.md)  
+		- [Post-Exploitation](1551.md)
 - ###### Wrapping Up
-	- [Engagement Closeout](module/163/section/1556)
-	- [Beyond this Module](module/163/section/1557)
+	- [Engagement Closeout](1556.md)
+	- [Beyond this Module](1557.md)
 
 A menudo nos encontramos con redes grandes y complejas durante nuestras evaluaciones. Debemos sentirnos cómodos al acercarnos a una red interna o externa, independientemente del tamaño, y ser capaces de trabajar en cada fase del proceso de prueba de penetración para alcanzar nuestro objetivo. Este módulo guiará a los estudiantes a través de una prueba de penetración simulada, de principio a fin, con énfasis en los pasos de prueba prácticos que son directamente aplicables a interacciones del mundo real.
