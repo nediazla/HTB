@@ -118,7 +118,7 @@ Este módulo proporciona a los alumnos habilidades esenciales de reconocimiento 
         - [Comenzando con Nessus](1231.md)
         - [Escaneo de nessus](1029.md)
         - [Configuración avanzada](1232.md)
-        - [Trabajar con la salida de escaneo de Nessus](1024.md)
+        - [Trabajar con la salida de escaneo de Nessus](HTB/module/108/section/1024.md)
         - [Problemas de escaneo](1028.md)
     - OpenVAS
         - [Comenzando con OpenVas](1026.md)
@@ -146,10 +146,10 @@ Durante una evaluación, es muy común que transfiramos archivos hacia y desde u
 
 - Shells & Payloads
     - Introduccion
-        - [Los proyectiles nos ingresan, las cargas útiles nos entregan conchas](1101.md)
+        - [Los proyectiles nos ingresan, las cargas útiles nos entregan conchas](HTB/module/115/section/1101.md)
         - [Preparación de compromiso de Cat5 Security](1181.md)
     - Shell Basic
-        - [Anatomía de un caparazón](1103.md)
+        - [Anatomía de un caparazón](HTB/module/115/section/1103.md)
         - [Atar conchas](1105.md)
         - [Conchas de reverso](1106.md)
     - Payloads
@@ -461,17 +461,17 @@ La inclusión de archivos es una vulnerabilidad común de las aplicaciones web, 
 	- [Intro to File Upload Attacks](1259.md)
 	- ###### Basic Exploitation
 		- [Absent Validation](1260.md)  
-		- [Upload Exploitation](module/136/section/1261)
+		- [Upload Exploitation](1261.md)
 	- ###### Bypassing Filters
-		- [Client-Side Validation](module/136/section/1280)  
-		- [Blacklist Filters](module/136/section/1288)  
-		- [Whitelist Filters](module/136/section/1289)  
-		- [Type Filters](module/136/section/1290)
+		- [Client-Side Validation](1280.md)  
+		- [Blacklist Filters](1288.md)  
+		- [Whitelist Filters](1289.md)  
+		- [Type Filters](1290.md)
 	- ###### Other Upload Attacks
-		- [Limited File Uploads](module/136/section/1291)
-		- [Other Upload Attacks](module/136/section/1292)
+		- [Limited File Uploads](1291.md)
+		- [Other Upload Attacks](1292.md)
 	- ###### Prevention
-		- [Preventing File Upload Vulnerabilities](module/136/section/1309)
+		- [Preventing File Upload Vulnerabilities](1309.md)
 
 La carga arbitraria de archivos se encuentra entre las vulnerabilidades web más críticas. Estas fallas permiten a los atacantes cargar archivos maliciosos, ejecutar comandos arbitrarios en el servidor back-end e incluso tomar el control de todo el servidor y de todas las aplicaciones web alojadas en él y potencialmente obtener acceso a datos confidenciales o causar una interrupción del servicio.
 
@@ -482,7 +482,7 @@ La carga arbitraria de archivos se encuentra entre las vulnerabilidades web más
         - [Injecting Commands](1033.md)
         - [Other Injection Operators](1034.md)
     - Filter Evasion
-        - [Identifying Filters](1035.md)
+        - [Identifying Filters](HTB/module/109/section/1035.md)
         - [Bypassing Space Filters](1036.md)
         - [Bypassing Other Blacklisted Characters](1037.md)
         - [Bypassing Blacklisted Commands](1038.md)
@@ -553,7 +553,7 @@ Este módulo cubre tres vulnerabilidades web comunes: HTTP Verb Tampering, IDOR 
 		- [Attacking LDAP](2153.md)  
 		- [Web Mass Assignment Vulnerabilities](2160.md)  
 		- [Attacking Applications Connecting to Services](2154.md)  
-		- [Other Notable Applications](1102.md)
+		- [Other Notable Applications](HTB/module/113/section/1102.md)
 	- Closing Out
 		- [Application Hardening](1096.md)
 
