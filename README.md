@@ -5,3 +5,4 @@
 - [Maquinas](maquinas.md)
 -  Cheatsheet
 	- [cpts - Resume](CPTS-cheatsheet/README.md)
+- [Python](python.md)
